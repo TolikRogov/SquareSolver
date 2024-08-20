@@ -5,7 +5,7 @@
 
 #define PRINT_ERROR_STRING(err)({             \
     if (err != NO_ERROR) {                    \
-        printf("%s\n", ErrorsMessanger(err)); \
+        printf("%s\n", ErrorsMessenger(err)); \
         return 0;                             \
     }})
 

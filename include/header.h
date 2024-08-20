@@ -2,7 +2,7 @@ const double SS_MIN_VAL = 10e-6;
 
 typedef enum {
     NO_ERROR,
-    WRONG_RIDING,
+    WRONG_READING,
     UNDEFINED_NUMBER_ROOTS
 } Errors;
 
@@ -13,7 +13,7 @@ typedef enum {
     TWO_ROOTS
 } nRoots;
 
-const char* ErrorsMessanger(Errors error);
+const char* ErrorsMessenger(Errors error);
 void ClearBuffer();
 nRoots Solver(double a, double b, double c, double *x1, double *x2);
 int NearZero(double n);

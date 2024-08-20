@@ -39,7 +39,7 @@ Errors Insert(double *coeff, int cnt) {
     while (scanf("%lg", coeff) != 1) {
         ClearBuffer();
         ++k;
-        if(k > 2) return WRONG_RIDING;
+        if(k > 2) return WRONG_READING;
 
         printf("# Error coefficient data type \n");
         printf("# Enter coefficient №%d with right data type: ", cnt);

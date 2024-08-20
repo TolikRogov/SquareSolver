@@ -3,10 +3,10 @@
 #include <ctype.h>
 #include "../include/header.h"
 
-const char* ErrorsMessanger(Errors error) {
+const char* ErrorsMessenger(Errors error) {
     switch(error) {
         case NO_ERROR:               return "NO_ERROR";
-        case WRONG_RIDING:           return "WRONG_RIDING";
+        case WRONG_READING:           return "WRONG_READING";
         case UNDEFINED_NUMBER_ROOTS: return "UNDEFINED_NUMBER_ROOTS";
         default:                     return "UNDEFINED_ERROR";
     }
