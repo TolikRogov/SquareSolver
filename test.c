@@ -4,7 +4,7 @@
 const int SS_INF_ROOTS = -1;
 
 int SolveSquare(double a, double b, double c, double *x1, double *x2){
-    if (a == 0){
+    if (a == 0){     // TODO: вынести в отдельную функцию
         if (b == 0){
             return (c == 0)? SS_INF_ROOTS : 0;
         }
@@ -15,10 +15,10 @@ int SolveSquare(double a, double b, double c, double *x1, double *x2){
         }
     }
     else{
-        double d = b*b - 4*a*c;
+        double d = b * b - 4 * a * c;
 
-        if(d == 0){
-            *x1 = *x2 = -b/2/a;
+        if(d == 0) { // ADD FUNC CHECK DOUBLES
+            *x1 = *x2 = -b/2/a; //  FIX CODESTYLE
             return 1;
         }
         else if(d > 0){
@@ -40,7 +40,7 @@ int main(){
 
     int nRoots = SolveSquare(a, b, c, &x1, &x2);
 
-    switch(nRoots){
+    switch(nRoots) { // GetAnswer()
         case 0: {
             printf("No roots \n");
             break;
