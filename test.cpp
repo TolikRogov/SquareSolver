@@ -5,34 +5,63 @@
 const double SS_MIN_VAL = 10e-6;
 
 typedef enum {
+    NO_ERROR,
+    WRONG_RIDING,
+    UNDEFINED_NUMBER_ROOTS
+} Errors;
+
+typedef enum {
     INF_ROOTS = -1,
     NO_ROOTS,
     ONE_ROOT,
     TWO_ROOTS
 } nRoots;
 
+Errors ErrorsMessager(Errors error);
+void ClearBuffer();
 nRoots Solver(double a, double b, double c, double *x1, double *x2);
 int NearZero(double n);
 nRoots SolveLine(double b, double c, double *x1, double *x2);
-int PrintAnswer(int nRoots, double *x1, double *x2);
+Errors PrintAnswer(nRoots num_roots, double *x1, double *x2);
 int GetDiscriminant(double a, double b, double c);
 nRoots SolveSquare(double a, double b, double c, double *x1, double *x2);
-int Insert(double *coeff, int cnt);
+Errors Insert(double *coeff, int cnt);
 
 int main() {
 
     double a = 0, b = 0, c = 0;
     double x1 = 0, x2 = 0;
 
-    Insert(&a, 1);
-    Insert(&b, 2);
-    Insert(&c, 3);
+    Errors error = NO_ERROR;
 
-    nRoots check = Solver(a, b, c, &x1, &x2);
+    error = Insert(&a, 1);
+    ErrorsMessanger(error);
+    error = Insert(&b, 2);
+    ErrorsMessanger(error);
+    error = Insert(&c, 3);
+    ErrorsMessanger(error);
 
-    PrintAnswer(check, &x1, &x2);
+    nRoots num_roots = Solver(a, b, c, &x1, &x2);
+
+    PrintAnswer(num_roots, &x1, &x2);
 
     return 0;
+}
+
+Errors ErrorsMessanger(Errors error) {
+    switch(error) {
+        case NO_ERROR: break;
+        case WRONG_RIDING:
+            printf("Error number %d\n", error);
+            exit(1);
+        case UNDEFINED_NUMBER_ROOTS:
+            printf("Error number %d\n", error);
+            exit(1);
+    }
+}
+
+void ClearBuffer(int *ch) {
+    while ((*ch = getchar()) != '\n' && *ch != EOF) {}
 }
 
 int NearZero(double n) {
@@ -50,8 +79,8 @@ nRoots SolveLine(double b, double c, double *x1, double *x2) {
     }
 }
 
-int PrintAnswer(nRoots check, double *x1, double *x2) {
-    switch(check) {
+Errors PrintAnswer(nRoots num_roots, double *x1, double *x2) {
+    switch(num_roots) {
         case NO_ROOTS: {
             printf("No roots \n");
             break;
@@ -72,10 +101,10 @@ int PrintAnswer(nRoots check, double *x1, double *x2) {
         }
         default: {
             printf("main(): ERROR: amount of roots is not defined");
-            return 1;
+            return UNDEFINED_NUMBER_ROOTS;
         }
     }
-    return 0;
+    return NO_ERROR;
 }
 
 int GetDiscriminant(double a, double b, double c) {
@@ -109,14 +138,17 @@ nRoots Solver(double a, double b, double c, double *x1, double *x2) {
     return n;
 }
 
-int Insert(double *coeff, int cnt) {
+Errors Insert(double *coeff, int cnt) {
 
     printf("# Enter coefficient №%d: ", cnt);
+    int k = 0;
     while (scanf("%lg", coeff) != 1) {
+        ++k;
+        if(k > 2) return WRONG_RIDING;
         printf("# Error coefficient data type \n");
         printf("# Enter coefficient №%d with right data type: ", cnt);
         int ch = 0;
-        while ((ch = getchar()) != '\n' && ch != EOF) {}
+        ClearBuffer(&ch);
     }
-    return 0;
+    return NO_ERROR;
 }
