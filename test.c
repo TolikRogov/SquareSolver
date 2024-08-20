@@ -9,8 +9,8 @@ int SolveSquare(double a, double b, double c, double *x1, double *x2){
             return (c == 0)? SS_INF_ROOTS : 0;
         }
         else {
-            x1 = -c / b;
-            x2 = -c / b;
+            *x1 = -c / b;
+            *x2 = -c / b;
             return 1;
         }
     }
@@ -18,12 +18,12 @@ int SolveSquare(double a, double b, double c, double *x1, double *x2){
         double d = b*b - 4*a*c;
 
         if(d == 0){
-            x1 = x2 = -b/2/a;
+            *x1 = *x2 = -b/2/a;
             return 1;
         }
         else if(d > 0){
-            x1 = (-b + sqrt(d))/2/a;
-            x2 = (-b - sqrt(d))/2/a;
+            *x1 = (-b + sqrt(d))/2/a;
+            *x2 = (-b - sqrt(d))/2/a;
             return 2;
         }
     }
@@ -46,10 +46,12 @@ int main(){
             break;
         }
         case 1: {
-            printf("x1 = x2 = %lg \n", x1);
+            printf("One root \n");
+            printf("x = %lg \n", x1);
             break;
         }
         case 2: {
+            printf("Two roots \n");
             printf("x1 = %lg \n x2 = %lg \n", x1, x2);
             break;
         }
