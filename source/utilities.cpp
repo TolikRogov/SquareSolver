@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <math.h>
+#include <ctype.h>
+#include "../include/header.h"
+
+const char* ErrorsMessanger(Errors error) {
+    switch(error) {
+        case NO_ERROR:               return "NO_ERROR";
+        case WRONG_RIDING:           return "WRONG_RIDING";
+        case UNDEFINED_NUMBER_ROOTS: return "UNDEFINED_NUMBER_ROOTS";
+        default:                     return "UNDEFINED_ERROR";
+    }
+}
+
+void ClearBuffer() {
+    int ch = 0;
+    while ((ch = getchar()) != '\n' && ch != EOF) {}
+}
+
+int NearZero(double n) {
+    return fabs(n) < SS_MIN_VAL;
+}
