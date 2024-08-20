@@ -1,9 +1,32 @@
 #include <stdio.h>
+#include <math.h>
 
 const int SS_INF_ROOTS = -1;
 
-int SolveSquare(double a, double b, double c, double* x1, double* x2){
+int SolveSquare(double a, double b, double c, double *x1, double *x2){
+    if (a == 0){
+        if (b == 0){
+            return (c == 0)? SS_INF_ROOTS : 0;
+        }
+        else {
+            x1 = -c / b;
+            x2 = -c / b;
+            return 1;
+        }
+    }
+    else{
+        double d = b*b - 4*a*c;
 
+        if(d == 0){
+            x1 = x2 = -b/2/a;
+            return 1;
+        }
+        else if(d > 0){
+            x1 = (-b + sqrt(d))/2/a;
+            x2 = (-b - sqrt(d))/2/a;
+            return 2;
+        }
+    }
     return 0;
 }
 
