@@ -17,7 +17,7 @@ typedef enum {
     TWO_ROOTS
 } nRoots;
 
-Errors ErrorsMessager(Errors error);
+Errors ErrorsMessanger(Errors error);
 void ClearBuffer();
 nRoots Solver(double a, double b, double c, double *x1, double *x2);
 int NearZero(double n);
@@ -51,13 +51,16 @@ int main() {
 Errors ErrorsMessanger(Errors error) {
     switch(error) {
         case NO_ERROR: break;
-        case WRONG_RIDING:
+        case WRONG_RIDING || UNDEFINED_NUMBER_ROOTS: {
             printf("Error number %d\n", error);
-            exit(1);
-        case UNDEFINED_NUMBER_ROOTS:
-            printf("Error number %d\n", error);
-            exit(1);
+            break;
+        }
+        default: {
+            printf("Error number 0\n");
+            break;
+        }
     }
+    exit(0);
 }
 
 void ClearBuffer(int *ch) {
