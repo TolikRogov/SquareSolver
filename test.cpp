@@ -5,6 +5,12 @@ const int SS_INF_ROOTS = -1;
 const double SS_MIN_VAL = 10e-6;
 
 int Solver(double a, double b, double c, double *x1, double *x2);
+int NearZero(double n);
+int SolveLine(double b, double c, double *x1, double *x2);
+int PrintAnswer(int nRoots, double *x1, double *x2);
+int GetDiscriminant(double a, double b, double c);
+int SolveSquare(double a, double b, double c, double *x1, double *x2);
+int Insert(double *coeff);
 
 int main() {
 
@@ -13,6 +19,7 @@ int main() {
 
     Insert(&a);
     Insert(&b);
+    Insert(&c);
 
     //  дальше читать про enum, сделать enum c количество корней
 
@@ -66,12 +73,12 @@ int PrintAnswer(int nRoots, double *x1, double *x2) {
     return 0;
 }
 
-int D(double a, double b, double c) {  // Fix naming
+int GetDiscriminant(double a, double b, double c) {
     return b * b - 4 * a * c;
 }
 
 int SolveSquare(double a, double b, double c, double *x1, double *x2) {
-    double d = D(a, b, c);
+    double d = GetDiscriminant(a, b, c);
 
     if(NearZero(d)) {
         *x1 = *x2 = -b / ( 2 * a );
@@ -99,7 +106,7 @@ int Solver(double a, double b, double c, double *x1, double *x2) {
 
 int Insert(double *coeff) {
 
-    printf("# Enter number a, b, c: ");
+    printf("# Enter coefficient: ");
     while (scanf("%lf", coeff) != 1) {
         int ch = 0;
 
@@ -109,5 +116,3 @@ int Insert(double *coeff) {
 
     return 0;
 }
-
-
