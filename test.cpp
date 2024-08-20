@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
+#include "header.h" // include/  source/
 
 const double SS_MIN_VAL = 10e-6;
 
@@ -17,7 +18,7 @@ typedef enum {
     TWO_ROOTS
 } nRoots;
 
-Errors ErrorsMessanger(Errors error);
+const char* ErrorsMessanger(Errors error);
 void ClearBuffer();
 nRoots Solver(double a, double b, double c, double *x1, double *x2);
 int NearZero(double n);
@@ -27,19 +28,23 @@ int GetDiscriminant(double a, double b, double c);
 nRoots SolveSquare(double a, double b, double c, double *x1, double *x2);
 Errors Insert(double *coeff, int cnt);
 
+#define PRINT_ERROR_STRING(err)               \
+    if (err != NO_ERROR) {                    \
+        printf("%s\n", ErrorsMessanger(err)); \
+        return 0;                             \
+    }
+
 int main() {
 
     double a = 0, b = 0, c = 0;
     double x1 = 0, x2 = 0;
 
-    Errors error = NO_ERROR;
-
-    error = Insert(&a, 1);
-    ErrorsMessanger(error);
+    Errors error = Insert(&a, 1);
+    PRINT_ERROR_STRING(error);
     error = Insert(&b, 2);
-    ErrorsMessanger(error);
+    PRINT_ERROR_STRING(error);
     error = Insert(&c, 3);
-    ErrorsMessanger(error);
+    PRINT_ERROR_STRING(error);
 
     nRoots num_roots = Solver(a, b, c, &x1, &x2);
 
@@ -48,23 +53,18 @@ int main() {
     return 0;
 }
 
-Errors ErrorsMessanger(Errors error) {
+const char* ErrorsMessanger(Errors error) {
     switch(error) {
-        case NO_ERROR: break;
-        case WRONG_RIDING || UNDEFINED_NUMBER_ROOTS: {
-            printf("Error number %d\n", error);
-            break;
-        }
-        default: {
-            printf("Error number 0\n");
-            break;
-        }
+        case NO_ERROR:               return "NO_ERROR";
+        case WRONG_RIDING:           return "WRONG_RIDING";
+        case UNDEFINED_NUMBER_ROOTS: return "UNDEFINED_NUMBER_ROOTS";
+        default:                     return "UNDEFINED_ERROR";
     }
-    exit(0);
 }
 
-void ClearBuffer(int *ch) {
-    while ((*ch = getchar()) != '\n' && *ch != EOF) {}
+void ClearBuffer() {
+    int ch = 0;
+    while ((ch = getchar()) != '\n' && ch != EOF) {}
 }
 
 int NearZero(double n) {
@@ -146,12 +146,12 @@ Errors Insert(double *coeff, int cnt) {
     printf("# Enter coefficient №%d: ", cnt);
     int k = 0;
     while (scanf("%lg", coeff) != 1) {
+        ClearBuffer();
         ++k;
         if(k > 2) return WRONG_RIDING;
+
         printf("# Error coefficient data type \n");
         printf("# Enter coefficient №%d with right data type: ", cnt);
-        int ch = 0;
-        ClearBuffer(&ch);
     }
     return NO_ERROR;
 }
