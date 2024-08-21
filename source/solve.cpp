@@ -5,8 +5,8 @@
 #include "../include/solve.h"
 #include "../include/utilities.h"
 
-// TODO: 1) структуры 2) скрипт, который собирает прогу за тебя, 3) документации,
-// 4) прочитать про header guard, а точнее директиву ifdef
+// TODO: 3) документации,
+// 4) прочитать про header guard, а точнее директиву ifdef, как написать bash скрипт
 
 /*-------------------------------------------------------
 Function GetDiscriminant:
@@ -67,7 +67,7 @@ nRoots SolveSquare(Coeff* coeff, Solvers* solutions) {
 
 nRoots Solver(Coeff* coeff, Solvers* solutions) {
 
-    assert(solutions != nullptr);
+    assert(solutions);
     assert(coeff);
 
     nRoots n = NO_ROOTS;
