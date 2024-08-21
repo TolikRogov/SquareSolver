@@ -18,9 +18,6 @@ typedef enum {
     TWO_ROOTS
 } nRoots;
 
-Tests RunTests(int n_test, double a, double b, double c, double x1_right, double x2_right, int n_roots_right);
-const char* TestsMessenger(Tests test);
-nRoots Solver(double a, double b, double c, double *x1, double *x2);
 void ClearBuffer();
 int NearZero(double n);
 const char* ErrorsMessenger(Errors error);

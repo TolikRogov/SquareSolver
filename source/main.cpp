@@ -8,14 +8,7 @@ int main() {
     double a = 0, b = 0, c = 0;
     double x1 = 0, x2 = 0;
 
-    printf("%s\n", TestsMessenger(RunTests(1, 1, 0, -4, -2, 2, 2)));
-    printf("%s\n", TestsMessenger(RunTests(2, 0, 0, 0, 0, 0, -1)));
-    printf("%s\n", TestsMessenger(RunTests(3, 0, 0, -4, 0, 0, 0)));
-    printf("%s\n", TestsMessenger(RunTests(4, 0, 4, -4, 0, 1, 1)));
-    printf("%s\n", TestsMessenger(RunTests(5, 0, 1, 0, 0, 0, 1)));
-    printf("%s\n", TestsMessenger(RunTests(6, 1, 0, 0, 0, 0, 1)));
-    printf("%s\n", TestsMessenger(RunTests(7, 1, 1, 0, -1, 0, 2)));
-    printf("%s\n", TestsMessenger(RunTests(8, 1, 1, -2, -2, 1, 2)));
+    Tester();
 
     Errors error = Insert(&a, 1);
     PRINT_ERROR_STRING(error);
