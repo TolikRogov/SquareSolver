@@ -2,9 +2,11 @@
 #include <assert.h>
 #include <math.h>
 #include <ctype.h>
-#include "../include/solve_header.h"
+#include "../include/solve.h"
+#include "../include/utilities.h"
 
-// TODO: 1) структуры 2) скрипт, который собирает прогу за тебя, 3) документации
+// TODO: 1) структуры 2) скрипт, который собирает прогу за тебя, 3) документации,
+// 4) прочитать про header guard, а точнее директиву ifdef
 
 /*-------------------------------------------------------
 Function GetDiscriminant:
@@ -15,7 +17,7 @@ Function GetDiscriminant:
 return
 */
 
-static int GetDiscriminant(double a, double b, double c);
+static int GetDiscriminant(Coeff *coeff);
 
 #define MAX(x, y)           \
     ((x) < (y)) ? (y) : (x) \
@@ -23,57 +25,57 @@ static int GetDiscriminant(double a, double b, double c);
 #define MIN(x, y)           \
     ((x) > (y)) ? (y) : (x) \
 
-nRoots SolveLine(double b, double c, double *x1, double *x2) {
+nRoots SolveLine(Coeff* coeff, Solvers* solutions) {
 
-    assert(x1);
-    assert(x2);
+    assert(solutions);
+    assert(coeff);
 
-    if (NearZero(b)) {
-        return (NearZero(c)) ? INF_ROOTS : NO_ROOTS;
+    if (NearZero(coeff->b)) {
+        return (NearZero(coeff->c)) ? INF_ROOTS : NO_ROOTS;
     }
     else {
-        *x1 = (((-c / b) < 0) ? (-c / b) : 0);
-        *x2 = (((-c / b) > 0) ? (-c / b) : 0);
+        solutions->x1 = (((-coeff->c / coeff->b) < 0) ? (-coeff->c / coeff->b) : 0);
+        solutions->x2 = (((-coeff->c / coeff->b) > 0) ? (-coeff->c / coeff->b) : 0);
         return ONE_ROOT;
     }
 }
 
-static int GetDiscriminant(double a, double b, double c) {
-    return b * b - 4 * a * c;
+static int GetDiscriminant(Coeff* coeff) {
+    return (coeff->b * coeff->b - 4 * coeff->a * coeff->c);
 }
 
-nRoots SolveSquare(double a, double b, double c, double *x1, double *x2) {
+nRoots SolveSquare(Coeff* coeff, Solvers* solutions) {
 
-    assert(x1);
-    assert(x2);
+    assert(solutions);
+    assert(coeff);
 
-    double d = GetDiscriminant(a, b, c);
+    double d = GetDiscriminant(coeff);
 
     if(NearZero(d)) {
-        *x1 = ( ( ( -b / ( 2 * a ) ) < 0 ) ? ( -b / ( 2 * a ) ) : 0 );
-        *x2 = ( ( ( -b / ( 2 * a ) ) > 0 ) ? ( -b / ( 2 * a ) ) : 0 );
+        solutions->x1 = ( ( ( -coeff->b / ( 2 * coeff->a ) ) < 0 ) ? ( -coeff->b / ( 2 * coeff->a ) ) : 0 );
+        solutions->x2 = ( ( ( -coeff->b / ( 2 * coeff->a ) ) > 0 ) ? ( -coeff->b / ( 2 * coeff->a ) ) : 0 );
         return ONE_ROOT;
     }
     else if(d > 0) {
         double q = sqrt(d);
-        *x2 = MAX( ( ( -b + q ) / ( 2 * a ) ), ( ( -b - q ) / ( 2 * a ) ) );
-        *x1 = MIN( ( ( -b + q ) / ( 2 * a ) ), ( ( -b - q ) / ( 2 * a ) ) );
+        solutions->x2 = MAX( ( ( -coeff->b + q ) / ( 2 * coeff->a ) ), ( ( -coeff->b - q ) / ( 2 * coeff->a ) ) );
+        solutions->x1 = MIN( ( ( -coeff->b + q ) / ( 2 * coeff->a ) ), ( ( -coeff->b - q ) / ( 2 * coeff->a ) ) );
         return TWO_ROOTS;
     }
     return NO_ROOTS;
 }
 
-nRoots Solver(double a, double b, double c, double *x1, double *x2) {
+nRoots Solver(Coeff* coeff, Solvers* solutions) {
 
-    assert(x1);
-    assert(x2);
+    assert(solutions != nullptr);
+    assert(coeff);
 
-    nRoots n;
-    if (NearZero(a)) {
-        n = SolveLine(b, c, x1, x2);
+    nRoots n = NO_ROOTS;
+    if (NearZero(coeff->a)) {
+        n = SolveLine(coeff, solutions);
     }
     else {
-        n = SolveSquare(a, b, c, x1, x2);
+        n = SolveSquare(coeff, solutions);
     }
     return n;
 }

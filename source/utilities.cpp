@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
-#include "../include/utilities_header.h"
+#include "../include/utilities.h"
 
 const char* ErrorsMessenger(Errors error) {
     switch(error) {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
-#include "../include/tester_header.h"
+#include "../include/tester.h"
 
 void Tester(){
     printf("%s\n", TestsMessenger(RunTests(1, 1, 0, -4, -2, 2,  2)));

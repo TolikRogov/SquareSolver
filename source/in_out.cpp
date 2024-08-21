@@ -2,27 +2,27 @@
 #include <math.h>
 #include <assert.h>
 #include <ctype.h>
-#include "../include/in_out_header.h"
+#include "../include/in_out.h"
 
-Errors PrintAnswer(nRoots num_roots, double *x1, double *x2) {
+Errors PrintAnswer(Solvers* solutions) {
 
-    assert(x1);
-    assert(x2);
+    assert(solutions->x1);
+    assert(solutions->x2);
 
-    switch(num_roots) {
+    switch(solutions->num_roots) {
         case NO_ROOTS: {
             printf("No roots \n");
             break;
         }
         case ONE_ROOT: {
             printf("One root \n");
-            printf("x = %lg \n", *x1);
+            printf("x = %lg \n", solutions->x1);
             break;
         }
         case TWO_ROOTS: {
             printf("Two roots \n");
-            printf("x1 = %lg \n", *x1);
-            printf("x2 = %lg \n", *x2);
+            printf("x1 = %lg \n", solutions->x1);
+            printf("x2 = %lg \n", solutions->x2);
             break;
         }
         case INF_ROOTS: {
@@ -37,7 +37,7 @@ Errors PrintAnswer(nRoots num_roots, double *x1, double *x2) {
     return NO_ERROR;
 }
 
-Errors Insert(double *coeff, int cnt) {
+Errors Insert(double* coeff, int cnt) {
 
     assert(coeff);
 
