@@ -6,8 +6,8 @@
 
 Errors PrintAnswer(Solvers* solutions) {
 
-    assert(solutions->x1);
-    assert(solutions->x2);
+    assert(solutions);
+    assert(solutions);
 
     switch(solutions->num_roots) {
         case NO_ROOTS: {

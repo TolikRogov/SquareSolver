@@ -19,6 +19,16 @@ struct Solvers {
     nRoots num_roots;
 };
 
+struct Test {
+    int n_test;
+    double a;
+    double b;
+    double c;
+    double x1_right;
+    double x2_right;
+    int n_roots_right;
+};
+
 nRoots Solver(Coeff* coeff, Solvers* solutions);
 nRoots SolveLine(Coeff* coeff, Solvers* solutions);
 nRoots SolveSquare(Coeff* coeff, Solvers* solutions);

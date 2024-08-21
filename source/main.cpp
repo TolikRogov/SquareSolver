@@ -16,6 +16,7 @@ int main() {
 
     Solvers solutions = {};
     Coeff coeff = {};
+    Test controller = {};
 
     Tester();
 

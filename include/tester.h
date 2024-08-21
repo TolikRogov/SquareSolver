@@ -8,5 +8,5 @@ typedef enum {
 } Tests;
 
 void Tester();
-Tests RunTests(int n_test, Coeff* coeff, double x1_right, double x2_right, int n_roots_right);
+Tests RunTests(Test* controller);
 const char* TestsMessenger(Tests test);
