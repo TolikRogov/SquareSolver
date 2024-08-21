@@ -4,14 +4,14 @@
 #include "../include/tester_header.h"
 
 void Tester(){
-    printf("%s\n", TestsMessenger(RunTests(1, 1, 0, -4, -2, 2, 2)));
-    printf("%s\n", TestsMessenger(RunTests(2, 0, 0, 0, 0, 0, -1)));
-    printf("%s\n", TestsMessenger(RunTests(3, 0, 0, -4, 0, 0, 0)));
-    printf("%s\n", TestsMessenger(RunTests(4, 0, 4, -4, 0, 1, 1)));
-    printf("%s\n", TestsMessenger(RunTests(5, 0, 1, 0, 0, 0, 1)));
-    printf("%s\n", TestsMessenger(RunTests(6, 1, 0, 0, 0, 0, 1)));
-    printf("%s\n", TestsMessenger(RunTests(7, 1, 1, 0, -1, 0, 2)));
-    printf("%s\n", TestsMessenger(RunTests(8, 1, 1, -2, -2, 1, 2)));
+    printf("%s\n", TestsMessenger(RunTests(1, 1, 0, -4, -2, 2,  2)));
+    printf("%s\n", TestsMessenger(RunTests(2, 0, 0,  0,  0, 0, -1)));
+    printf("%s\n", TestsMessenger(RunTests(3, 0, 0, -4,  0, 0,  0)));
+    printf("%s\n", TestsMessenger(RunTests(4, 0, 4, -4,  0, 1,  1)));
+    printf("%s\n", TestsMessenger(RunTests(5, 0, 1,  0,  0, 0,  1)));
+    printf("%s\n", TestsMessenger(RunTests(6, 1, 0,  0,  0, 0,  1)));
+    printf("%s\n", TestsMessenger(RunTests(7, 1, 1,  0, -1, 0,  2)));
+    printf("%s\n", TestsMessenger(RunTests(8, 1, 1, -2, -2, 1,  2)));
 }
 
 Tests RunTests(int n_test, double a, double b, double c, double x1_right, double x2_right, int n_roots_right) {

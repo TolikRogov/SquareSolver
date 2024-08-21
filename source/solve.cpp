@@ -4,13 +4,32 @@
 #include <ctype.h>
 #include "../include/solve_header.h"
 
+// TODO: 1) структуры 2) скрипт, который собирает прогу за тебя, 3) документации
+
+/*-------------------------------------------------------
+Function GetDiscriminant:
+
+    a - first coeff of equation
+    b -
+
+return
+*/
+
+static int GetDiscriminant(double a, double b, double c);
+
+#define MAX(x, y)           \
+    ((x) < (y)) ? (y) : (x) \
+
+#define MIN(x, y)           \
+    ((x) > (y)) ? (y) : (x) \
+
 nRoots SolveLine(double b, double c, double *x1, double *x2) {
 
     assert(x1);
     assert(x2);
 
     if (NearZero(b)) {
-        return (NearZero(c))? INF_ROOTS : NO_ROOTS;
+        return (NearZero(c)) ? INF_ROOTS : NO_ROOTS;
     }
     else {
         *x1 = (((-c / b) < 0) ? (-c / b) : 0);
@@ -37,8 +56,8 @@ nRoots SolveSquare(double a, double b, double c, double *x1, double *x2) {
     }
     else if(d > 0) {
         double q = sqrt(d);
-        *x1 = ( ( ( ( -b + q ) / (2 * a) ) < ( ( -b - q ) / (2 * a) ) ) ? ( ( -b + q ) / (2 * a) ) : ( ( -b - q ) / (2 * a) ) );
-        *x2 = ( ( ( ( -b + q ) / (2 * a) ) > ( ( -b - q ) / (2 * a) ) ) ? ( ( -b + q ) / (2 * a) ) : ( ( -b - q ) / (2 * a) ) );
+        *x2 = MAX( ( ( -b + q ) / ( 2 * a ) ), ( ( -b - q ) / ( 2 * a ) ) );
+        *x1 = MIN( ( ( -b + q ) / ( 2 * a ) ), ( ( -b - q ) / ( 2 * a ) ) );
         return TWO_ROOTS;
     }
     return NO_ROOTS;
