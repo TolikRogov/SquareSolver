@@ -10,6 +10,10 @@ Tests RunTests(int n_test, double a, double b, double c, double x1_right, double
     printf("%d: ", n_test);
 
     if (n_roots != n_roots_right || x1 != x1_right || x2 != x2_right) {
+        printf("a = %lg, b = %lg, c = %lg \n"
+        "x1 = %lg, x2 = %lg, n_roots = %d \n"
+        "x1_right = %lg, x2_right = %lg, n_roots_right = %d \n",
+        a, b, c, x1, x2, n_roots, x1_right, x2_right, n_roots_right);
         return FAILED_TEST;
     }
     return CORRECT_TEST;

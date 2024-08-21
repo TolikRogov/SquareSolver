@@ -15,6 +15,7 @@ int main() {
     printf("%s\n", TestsMessenger(RunTests(5, 0, 1, 0, 0, 0, 1)));
     printf("%s\n", TestsMessenger(RunTests(6, 1, 0, 0, 0, 0, 1)));
     printf("%s\n", TestsMessenger(RunTests(7, 1, 1, 0, -1, 0, 2)));
+    printf("%s\n", TestsMessenger(RunTests(8, 1, 1, -2, -2, 1, 2)));
 
     Errors error = Insert(&a, 1);
     PRINT_ERROR_STRING(error);
