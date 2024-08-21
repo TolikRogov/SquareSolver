@@ -1,7 +1,6 @@
 typedef enum {
     NO_ERROR,
     WRONG_READING,
-    WRONG_TEST,
     UNDEFINED_NUMBER_ROOTS
 } Errors;
 

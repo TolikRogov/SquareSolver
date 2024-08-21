@@ -1,9 +1,14 @@
 #include <stdio.h>
 #include <math.h>
+#include <assert.h>
 #include <ctype.h>
 #include "../include/in_out_header.h"
 
 Errors PrintAnswer(nRoots num_roots, double *x1, double *x2) {
+
+    assert(x1);
+    assert(x2);
+
     switch(num_roots) {
         case NO_ROOTS: {
             printf("No roots \n");
@@ -33,6 +38,8 @@ Errors PrintAnswer(nRoots num_roots, double *x1, double *x2) {
 }
 
 Errors Insert(double *coeff, int cnt) {
+
+    assert(coeff);
 
     printf("# Enter coefficient №%d: ", cnt);
     int k = 0;
