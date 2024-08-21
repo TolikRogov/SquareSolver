@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
-#include "../include/header.h"
+#include "../include/main_header.h"
 
 #define PRINT_ERROR_STRING(err)({             \
     if (err != NO_ERROR) {                    \

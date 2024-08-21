@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
-#include "../include/header.h"
+#include "../include/solve_header.h"
 
 nRoots SolveLine(double b, double c, double *x1, double *x2) {
     if (NearZero(b)) {

@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
-#include "../include/header.h"
+#include "../include/in_out_header.h"
 
 Errors PrintAnswer(nRoots num_roots, double *x1, double *x2) {
     switch(num_roots) {
