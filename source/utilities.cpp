@@ -19,5 +19,5 @@ void ClearBuffer() {
 }
 
 int NearZero(double n) {
-    return fabs(n) < SS_MIN_VAL;
+    return fabs(n) < eps;
 }

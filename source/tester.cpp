@@ -2,6 +2,7 @@
 #include <math.h>
 #include <ctype.h>
 #include "../include/tester.h"
+#include "../include/utilities.h"
 
 void Tester(){
     struct Test list[] = { {1, 1, 0, -4, -2, 2,  2},
@@ -25,11 +26,14 @@ Tests RunTests(Test* controller) {
 
     printf("%d: ", controller->n_test);
 
-    if (n_roots != controller->n_roots_right || solutions.x1 != controller->x1_right || solutions.x2 != controller->x2_right) {
+    if (n_roots != controller->n_roots_right ||
+    fabs(solutions.x1 - controller->x1_right) > eps ||
+    fabs(solutions.x2 - controller->x2_right) > eps) {
         printf("a = %lg, b = %lg, c = %lg \n"
         "x1 = %lg, x2 = %lg, n_roots = %d \n"
         "x1_right = %lg, x2_right = %lg, n_roots_right = %d \n",
-        controller->a, controller->b, controller->c, solutions.x1, solutions.x2, n_roots,
+        controller->a, controller->b, controller->c,
+        solutions.x1, solutions.x2, n_roots,
         controller->x1_right, controller->x2_right, controller->n_roots_right);
         return FAILED_TEST;
     }

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef TESTER_INCLUDE
+#define TESTER_INCLUDE
 
 #include "solve.h"
 
@@ -47,3 +48,5 @@ Function TestsMessenger() - converts an status of test of type Test to a string:
 return a string indicating the status of test
 
 -----------------------------------------------------------------------------*/
+
+#endif // TESTER_INCLUDE

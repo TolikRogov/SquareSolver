@@ -1,4 +1,5 @@
-#pragma once
+#ifndef IN_OUT_INCLUDE
+#define IN_OUT_INCLUDE
 
 #include "utilities.h"
 #include "solve.h"
@@ -27,3 +28,5 @@ Function Insert() - accepts from the user the values ​​of the coefficients o
 return input outcome - without or with error
 
 -----------------------------------------------------------------------------*/
+
+#endif // IN_OUT_INCLUDE

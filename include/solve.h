@@ -1,4 +1,5 @@
-#pragma once
+#ifndef SOLVE_INCLUDE
+#define SOLVE_INCLUDE
 
 typedef enum {
     INF_ROOTS = -1,
@@ -112,3 +113,5 @@ Function SolveSquare() - a function that solutes a quadratic equation:
 returns number of solutions to the quadratic equation of type nRoots
 
 -----------------------------------------------------------------------------*/
+
+#endif // SOLVE_INCLUDE

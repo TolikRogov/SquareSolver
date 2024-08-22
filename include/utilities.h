@@ -1,6 +1,7 @@
-#pragma once
+#ifndef UTILITIES_INCLUDE
+#define UTILITIES_INCLUDE
 
-const double SS_MIN_VAL = 10e-6;
+const double eps = 1e-6;
 
 /*-----------------------------------------------------------------------------
 
@@ -58,3 +59,5 @@ Function ErrorsMessenger() - converts an error of type Errors to a string:
 return a string indicating the error value
 
 -----------------------------------------------------------------------------*/
+
+#endif // UTILITIES_INCLUDE
