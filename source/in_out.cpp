@@ -44,6 +44,7 @@ Errors Insert(double* coeff, int cnt) {
     printf("# Enter coefficient №%d: ", cnt);
     int k = 0;
     while (scanf("%lg", coeff) != 1) {
+
         ClearBuffer();
         ++k;
         if(k > 2) return WRONG_READING;

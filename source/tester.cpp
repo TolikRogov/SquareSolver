@@ -4,7 +4,7 @@
 #include "../include/tester.h"
 
 void Tester(){
-    struct Test list[8] = { {1, 1, 0, -4, -2, 2,  2},
+    struct Test list[] = { {1, 1, 0, -4, -2, 2,  2},
                             {2, 0, 0,  0,  0, 0, -1},
                             {3, 0, 0, -4,  0, 0,  0},
                             {4, 0, 4, -4,  0, 1,  1},

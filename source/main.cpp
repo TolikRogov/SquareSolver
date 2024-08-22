@@ -6,7 +6,7 @@
 #include "../include/in_out.h"
 #include "../include/solve.h"
 
-// TODO: 2) прочитать про header guard,а точнее  директиву ifdef
+// TODO: 1) прочитать про header guard, а точнее  директиву ifdef, 2) interface
 
 #define PRINT_ERROR_STRING(err)({              \
     if (err != NO_ERROR) {                    \

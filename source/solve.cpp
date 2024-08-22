@@ -55,6 +55,9 @@ nRoots SolveSquare(Coeff* coeff, Solvers* solutions) {
 
 nRoots Solver(Coeff* coeff, Solvers* solutions) {
 
+    assert(isfinite(coeff->a));
+    assert(isfinite(coeff->b));
+    assert(isfinite(coeff->c));
     assert(solutions);
     assert(coeff);
 

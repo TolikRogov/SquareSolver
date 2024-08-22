@@ -7,6 +7,7 @@ const char* ErrorsMessenger(Errors error) {
     switch(error) {
         case NO_ERROR:               return "NO_ERROR";
         case WRONG_READING:          return "WRONG_READING";
+        case INF_ERROR:              return "INF_ERROR";
         case UNDEFINED_NUMBER_ROOTS: return "UNDEFINED_NUMBER_ROOTS";
         default:                     return "UNDEFINED_ERROR";
     }
