@@ -6,7 +6,7 @@
 #include "../include/in_out.h"
 #include "../include/solve.h"
 
-// TODO: 1) документации, 2) прочитать про header guard,а точнее  директиву ifdef, 3) как написать bash скрипт, 4) флаги деда
+// TODO: 2) прочитать про header guard,а точнее  директиву ifdef
 
 #define PRINT_ERROR_STRING(err)({              \
     if (err != NO_ERROR) {                    \
@@ -18,7 +18,6 @@ int main() {
 
     Solvers solutions = {};
     Coeff coeff = {};
-    Test controller = {};
 
     Tester();
 

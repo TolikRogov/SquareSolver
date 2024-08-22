@@ -1,0 +1,6 @@
+#!/bin/bash
+g++ -c source/*.cpp -Wall -Wextra
+mv *.o build/
+g++ -o ss build/*.o -Wall -Wextra
+./ss
+mv ss build/
