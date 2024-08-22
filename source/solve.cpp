@@ -5,18 +5,6 @@
 #include "../include/solve.h"
 #include "../include/utilities.h"
 
-// TODO: 3) документации,
-// 4) прочитать про header guard, а точнее директиву ifdef, как написать bash скрипт
-
-/*-------------------------------------------------------
-Function GetDiscriminant:
-
-    a - first coeff of equation
-    b -
-
-return
-*/
-
 static int GetDiscriminant(Coeff *coeff);
 
 #define MAX(x, y)           \

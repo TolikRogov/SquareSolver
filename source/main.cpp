@@ -6,7 +6,9 @@
 #include "../include/in_out.h"
 #include "../include/solve.h"
 
-#define PRINT_ERROR_STRING(err)({             \
+// TODO: 1) документации, 2) прочитать про header guard,а точнее  директиву ifdef, 3) как написать bash скрипт, 4) флаги деда
+
+#define PRINT_ERROR_STRING(err)({              \
     if (err != NO_ERROR) {                    \
         printf("%s\n", ErrorsMessenger(err)); \
         return 0;                             \
