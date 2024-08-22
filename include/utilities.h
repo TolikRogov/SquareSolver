@@ -12,7 +12,6 @@ const double SS_MIN_VAL - a constant containing a value with which variables of 
 typedef enum {
     NO_ERROR,
     WRONG_READING,
-    INF_ERROR,
     UNDEFINED_NUMBER_ROOTS
 } Errors;
 
@@ -22,10 +21,16 @@ enum Errors - an enumeration containing variables indicating the type of error w
 
     NO_ERROR               = 0  - no error
     WRONG_READING          = 1  - error after entering coefficients of a quadratic equation three times with the wrong data type
-    INF_ERROR              = 2  - error input value
-    UNDEFINED_NUMBER_ROOTS = 3  - the cause of the program error is not determined
+    UNDEFINED_NUMBER_ROOTS = 2  - the cause of the program error is not determined
 
 -----------------------------------------------------------------------------*/
+
+typedef enum {
+    NOT_NUMBER,
+    NUMBER
+} IsNumber;
+
+IsNumber NumberChecker(char* str);
 
 void ClearBuffer();
 

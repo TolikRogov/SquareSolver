@@ -14,7 +14,7 @@ void Tester(){
                             {7, 1, 1,  0, -1, 0,  2},
                             {8, 1, 1, -2, -2, 1,  2} };
 
-    for (unsigned long i = 0; i < (sizeof(list) / sizeof(list[0])); ++i) {
+    for (size_t i = 0; i < (sizeof(list) / sizeof(list[0])); ++i) {
         printf("%s\n", TestsMessenger(RunTests(&list[i])));
     }
 }

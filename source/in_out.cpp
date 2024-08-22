@@ -4,6 +4,31 @@
 #include <ctype.h>
 #include "../include/in_out.h"
 
+#define PRINT_ERROR_STRING(err)({              \
+    if (err != NO_ERROR) {                    \
+        printf("%s\n", ErrorsMessenger(err)); \
+        return 0;                             \
+    }})
+
+int Normal() {
+
+    Solvers solutions = {};
+    Coeff coeff = {};
+
+    Errors error = Insert(&coeff.a, 1);
+    PRINT_ERROR_STRING(error);
+    error = Insert(&coeff.b, 2);
+    PRINT_ERROR_STRING(error);
+    error = Insert(&coeff.c, 3);
+    PRINT_ERROR_STRING(error);
+
+    solutions.num_roots = Solver(&coeff , &solutions);
+
+    PrintAnswer(&solutions);
+
+    return 1;
+}
+
 Errors PrintAnswer(Solvers* solutions) {
 
     assert(solutions);
@@ -43,14 +68,21 @@ Errors Insert(double* coeff, int cnt) {
 
     printf("# Enter coefficient №%d: ", cnt);
     int k = 0;
-    while (scanf("%lg", coeff) != 1) {
+    char str[] = "";
+    scanf("%s", str);
+    while (NumberChecker(str) != NUMBER) {
 
         ClearBuffer();
+        printf("%d \n", k);
         ++k;
         if(k > 2) return WRONG_READING;
 
         printf("# Error coefficient data type \n");
         printf("# Enter coefficient №%d with right data type: ", cnt);
+
+        scanf("%s", str);
     }
+    char* end_str;
+    *coeff = strtod(str, &end_str);
     return NO_ERROR;
 }
