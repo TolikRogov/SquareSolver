@@ -10,9 +10,8 @@
 /*  TODO:
         1) консольный github,
         2) readme,
-        3) Перенести документацию
-        4) color dictionary
-        5) failed test information
+        3) color dictionary
+        4) failed test information
 */
 
 int main(int argc, char* argv[]) {

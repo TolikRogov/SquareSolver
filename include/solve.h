@@ -1,13 +1,6 @@
 #ifndef SOLVE_INCLUDE
 #define SOLVE_INCLUDE
 
-typedef enum {
-    INF_ROOTS = -1,
-    NO_ROOTS,
-    ONE_ROOT,
-    TWO_ROOTS
-} nRoots;
-
 /*-----------------------------------------------------------------------------
 
 enum nRoots - an enumeration containing integer variables indicating the number of roots of a quadratic equation:
@@ -19,11 +12,12 @@ enum nRoots - an enumeration containing integer variables indicating the number 
 
 -----------------------------------------------------------------------------*/
 
-struct Coeff {
-    double a;
-    double b;
-    double c;
-};
+typedef enum {
+    INF_ROOTS = -1,
+    NO_ROOTS,
+    ONE_ROOT,
+    TWO_ROOTS
+} nRoots;
 
 /*-----------------------------------------------------------------------------
 
@@ -35,10 +29,10 @@ struct Coeff - a structure containing coefficients of a quadratic equation:
 
 -----------------------------------------------------------------------------*/
 
-struct Solvers {
-    double x1;
-    double x2;
-    nRoots num_roots;
+struct Coeff {
+    double a;
+    double b;
+    double c;
 };
 
 /*-----------------------------------------------------------------------------
@@ -51,31 +45,11 @@ struct Solvers - a structure containing values of roots and their quantity:
 
 -----------------------------------------------------------------------------*/
 
-struct Test {
-    int n_test;
-    double a;
-    double b;
-    double c;
-    double x1_right;
-    double x2_right;
-    int n_roots_right;
+struct Solvers {
+    double x1;
+    double x2;
+    nRoots num_roots;
 };
-
-/*-----------------------------------------------------------------------------
-
-struct Test - a structure containing parameters for the function RunTests():
-
-    n_test        - number of test
-    a             - first coefficient of equation
-    b             - second coefficient of equation
-    c             - third coefficient of equation
-    x1_right      - correct value of the first root
-    x2_right      - correct value of the second root
-    n_roots_right - correct value of the number of roots
-
------------------------------------------------------------------------------*/
-
-nRoots Solver(Coeff* coeff, Solvers* solutions);
 
 /*-----------------------------------------------------------------------------
 
@@ -88,7 +62,7 @@ returns number of solutions to an equation of type nRoots
 
 -----------------------------------------------------------------------------*/
 
-nRoots SolveLine(Coeff* coeff, Solvers* solutions);
+nRoots Solver(Coeff* coeff, Solvers* solutions);
 
 /*-----------------------------------------------------------------------------
 
@@ -101,7 +75,7 @@ returns number of solutions to the linear equation of type nRoots
 
 -----------------------------------------------------------------------------*/
 
-nRoots SolveSquare(Coeff* coeff, Solvers* solutions);
+nRoots SolveLine(Coeff* coeff, Solvers* solutions);
 
 /*-----------------------------------------------------------------------------
 
@@ -113,5 +87,7 @@ Function SolveSquare() - a function that solutes a quadratic equation:
 returns number of solutions to the quadratic equation of type nRoots
 
 -----------------------------------------------------------------------------*/
+
+nRoots SolveSquare(Coeff* coeff, Solvers* solutions);
 
 #endif // SOLVE_INCLUDE

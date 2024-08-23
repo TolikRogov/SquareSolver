@@ -9,6 +9,16 @@ const double SS_MIN_VAL - a constant containing a value with which variables of 
 
 const double eps = 1e-6;
 
+/*-----------------------------------------------------------------------------
+
+struct Colors - a structure containing escape-subsequence for each color for display in terminal:
+
+    red, green, ...       - escape-subsequence for every color with default font
+    red_bold, green_bold, - escape-subsequence for every color with bold font
+    end                   - escape-subsequence for default color of terminal
+
+-----------------------------------------------------------------------------*/
+
 struct Colors {
     char red[20];
     char green[20];
@@ -26,6 +36,12 @@ struct Colors {
     char white_bold[20];
     char end[20];
 };
+
+/*-----------------------------------------------------------------------------
+
+const Colors colors - initialization the constant structure of type Colors
+
+-----------------------------------------------------------------------------*/
 
 const Colors colors = { .red         = "\033[0;31m",
                         .blue        = "\033[0;34m",

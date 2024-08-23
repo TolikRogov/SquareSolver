@@ -4,8 +4,6 @@
 #include "utilities.h"
 #include "solve.h"
 
-int Normal();
-
 /*-----------------------------------------------------------------------------
 
 Function Normal() - a function that runs SolveSquare with user's coefficients:
@@ -14,7 +12,7 @@ return output outcome - without (1) or with (0) error
 
 -----------------------------------------------------------------------------*/
 
-Errors PrintAnswer(Solvers* solutions);
+int Normal();
 
 /*-----------------------------------------------------------------------------
 
@@ -26,7 +24,7 @@ return output outcome - without or with error
 
 -----------------------------------------------------------------------------*/
 
-Errors Insert(double *coeff, int cnt);
+Errors PrintAnswer(Solvers* solutions);
 
 /*-----------------------------------------------------------------------------
 
@@ -38,5 +36,7 @@ Function Insert() - accepts from the user the values ​​of the coefficients o
 return input outcome - without or with error
 
 -----------------------------------------------------------------------------*/
+
+Errors Insert(double *coeff, int cnt);
 
 #endif // IN_OUT_INCLUDE
