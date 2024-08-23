@@ -8,8 +8,9 @@
 #include "../include/solve.h"
 
 /*  TODO:
-        2) readme,
-        3) color dictionary
+        1) readme,
+        2) test information
+        3) documentation
 */
 
 int main(int argc, char* argv[]) {
