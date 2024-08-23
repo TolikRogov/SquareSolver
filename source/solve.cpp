@@ -2,6 +2,7 @@
 #include <assert.h>
 #include <math.h>
 #include <ctype.h>
+
 #include "../include/solve.h"
 #include "../include/utilities.h"
 
