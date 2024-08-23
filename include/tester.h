@@ -5,20 +5,6 @@
 
 /*-----------------------------------------------------------------------------
 
-enum Tests - an enumeration containing variables indicating status of the next running test:
-
-    FAILED_TEST  - test failed
-    CORRECT_TEST - test passed
-
------------------------------------------------------------------------------*/
-
-typedef enum {
-    FAILED_TEST,
-    CORRECT_TEST
-} Tests;
-
-/*-----------------------------------------------------------------------------
-
 struct Test - a structure containing parameters for the function RunTests():
 
     n_test        - number of test
@@ -59,7 +45,7 @@ return status of the next running test of type Test
 
 -----------------------------------------------------------------------------*/
 
-Tests RunTests(Test* controller);
+Solvers RunTests(Test* controller);
 
 /*-----------------------------------------------------------------------------
 

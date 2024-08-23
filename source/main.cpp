@@ -9,8 +9,8 @@
 
 /*  TODO:
         1) readme,
-        2) test information
-        3) documentation
+        2) documentation doxygen
+        3) custom assert
 */
 
 int main(int argc, char* argv[]) {

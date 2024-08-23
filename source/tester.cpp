@@ -18,14 +18,16 @@ void Tester(){
                             {10, -1e-3, -2e-3, 1, -32.638584, 30.638584, 2} };
 
     for (size_t i = 0; i < (sizeof(list) / sizeof(list[0])); ++i) {
-        Tests status = RunTests(&list[i]);
-        switch(status) {
+        Solvers solutions = RunTests(&list[i]);
+        switch(solutions.status) {
             case FAILED_TEST:{
-                printf("%s%s%s\n", colors.red, TestsMessenger(status), colors.end);
+                printf("%s%s%s\n", colors.red, TestsMessenger(solutions.status), colors.end);
+                printf("%sa = %lg, b = %lg, c = %lg\nx1 = %.10lg, x2 = %.10lg, n_roots = %d\nx1_right = %.10lg, x2_right = %.10lg, n_roots_right = %d%s\n", colors.yellow, list[i].a, list[i].b, list[i].c, solutions.x1, solutions.x2, solutions.num_roots,
+                list[i].x1_right, list[i].x2_right, list[i].n_roots_right, colors.end);
                 break;
             }
             case CORRECT_TEST: {
-                printf("%s%s%s\n", colors.green, TestsMessenger(status), colors.end);
+                printf("%s%s%s\n", colors.green, TestsMessenger(solutions.status), colors.end);
                 break;
             }
             default: {
@@ -36,9 +38,9 @@ void Tester(){
     }
 }
 
-Tests RunTests(Test* controller) {
+Solvers RunTests(Test* controller) {
     Coeff coeff = { controller->a, controller->b, controller->c };
-    Solvers solutions = {};
+    Solvers solutions = {.status = CORRECT_TEST};
     nRoots n_roots = Solver(&coeff, &solutions);
 
     printf("%s%2d: ", colors.teal_bold, controller->n_test);
@@ -46,12 +48,9 @@ Tests RunTests(Test* controller) {
     if (n_roots != controller->n_roots_right ||
     fabs(solutions.x1 - controller->x1_right) > eps ||
     fabs(solutions.x2 - controller->x2_right) > eps) {
-        printf("%sa = %lg, b = %lg, c = %lg\nx1 = %.10lg, x2 = %.10lg, n_roots = %d\nx1_right = %.10lg, x2_right = %.10lg, n_roots_right = %d%s\n", colors.yellow, controller->a, controller->b, controller->c,
-        solutions.x1, solutions.x2, n_roots,
-        controller->x1_right, controller->x2_right, controller->n_roots_right, colors.end);
-        return FAILED_TEST;
+        solutions.status = FAILED_TEST;
     }
-    return CORRECT_TEST;
+    return solutions;
 }
 
 const char* TestsMessenger(Tests test) {

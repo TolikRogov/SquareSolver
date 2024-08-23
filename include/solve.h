@@ -1,7 +1,19 @@
 #ifndef SOLVE_INCLUDE
 #define SOLVE_INCLUDE
 
-#include "tester.h"
+/*-----------------------------------------------------------------------------
+
+enum Tests - an enumeration containing variables indicating status of the next running test:
+
+    FAILED_TEST  - test failed
+    CORRECT_TEST - test passed
+
+-----------------------------------------------------------------------------*/
+
+typedef enum {
+    FAILED_TEST,
+    CORRECT_TEST
+} Tests;
 
 /*-----------------------------------------------------------------------------
 
@@ -51,6 +63,7 @@ struct Solvers {
     double x1;
     double x2;
     nRoots num_roots;
+    Tests status;
 };
 
 /*-----------------------------------------------------------------------------
