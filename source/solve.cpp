@@ -5,7 +5,7 @@
 #include "../include/solve.h"
 #include "../include/utilities.h"
 
-static int GetDiscriminant(Coeff *coeff);
+static double GetDiscriminant(Coeff *coeff);
 
 #define MAX(x, y)           \
     ((x) < (y)) ? (y) : (x) \
@@ -22,13 +22,13 @@ nRoots SolveLine(Coeff* coeff, Solvers* solutions) {
         return (NearZero(coeff->c)) ? INF_ROOTS : NO_ROOTS;
     }
     else {
-        solutions->x1 = (((-coeff->c / coeff->b) < 0) ? (-coeff->c / coeff->b) : 0);
-        solutions->x2 = (((-coeff->c / coeff->b) > 0) ? (-coeff->c / coeff->b) : 0);
+        solutions->x1 = (-coeff->c / coeff->b);
+        solutions->x2 = NAN;
         return ONE_ROOT;
     }
 }
 
-static int GetDiscriminant(Coeff* coeff) {
+static double GetDiscriminant(Coeff* coeff) {
     return (coeff->b * coeff->b - 4 * coeff->a * coeff->c);
 }
 
@@ -40,8 +40,8 @@ nRoots SolveSquare(Coeff* coeff, Solvers* solutions) {
     double d = GetDiscriminant(coeff);
 
     if(NearZero(d)) {
-        solutions->x1 = ( ( ( -coeff->b / ( 2 * coeff->a ) ) < 0 ) ? ( -coeff->b / ( 2 * coeff->a ) ) : 0 );
-        solutions->x2 = ( ( ( -coeff->b / ( 2 * coeff->a ) ) > 0 ) ? ( -coeff->b / ( 2 * coeff->a ) ) : 0 );
+        solutions->x1 = ( -coeff->b / ( 2 * coeff->a ) );
+        solutions->x2 = NAN;
         return ONE_ROOT;
     }
     else if(d > 0) {
