@@ -74,7 +74,7 @@ Errors Insert(double* coeff, int cnt) {
         if(k > 2) {return WRONG_READING;}
 
         printf("%s%s%s\n", colors.red, "# Error coefficient data type", colors.end);
-        printf("%s# Enter coefficient №%d with right data type: ", colors.yellow, cnt, colors.end);
+        printf("%s# Enter coefficient №%d with right data type: %s", colors.yellow, cnt, colors.end);
 
     }
     return NO_ERROR;

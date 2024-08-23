@@ -1,6 +1,8 @@
 #ifndef SOLVE_INCLUDE
 #define SOLVE_INCLUDE
 
+#include "tester.h"
+
 /*-----------------------------------------------------------------------------
 
 enum nRoots - an enumeration containing integer variables indicating the number of roots of a quadratic equation:
