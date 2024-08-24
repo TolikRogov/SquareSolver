@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['solve_2ecpp_0',['solve.cpp',['../solve_8cpp.html',1,'']]],
-  ['solveline_1',['SolveLine',['../solve_8cpp.html#a279e7254693e11b493551bc784828792',1,'solve.cpp']]],
-  ['solver_2',['Solver',['../solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5',1,'solve.cpp']]],
-  ['solvesquare_3',['SolveSquare',['../solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1',1,'solve.cpp']]]
+  ['main_0',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
+  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]],
+  ['max_2',['MAX',['../solve_8cpp.html#aacc3ee1a7f283f8ef65cea31f4436a95',1,'solve.cpp']]],
+  ['min_3',['MIN',['../solve_8cpp.html#a74e75242132eaabbc1c512488a135926',1,'solve.cpp']]]
 ];

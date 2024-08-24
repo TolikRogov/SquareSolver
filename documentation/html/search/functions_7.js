@@ -1,6 +1,4 @@
 var searchData=
 [
-  ['solveline_0',['SolveLine',['../solve_8cpp.html#a279e7254693e11b493551bc784828792',1,'solve.cpp']]],
-  ['solver_1',['Solver',['../solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5',1,'solve.cpp']]],
-  ['solvesquare_2',['SolveSquare',['../solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1',1,'solve.cpp']]]
+  ['runtests_0',['RunTests',['../tester_8cpp.html#a15367d5f6752dc0b53588d3f8f1b8df3',1,'RunTests(Test *controller):&#160;tester.cpp'],['../tester_8h.html#a15367d5f6752dc0b53588d3f8f1b8df3',1,'RunTests(Test *controller):&#160;tester.cpp']]]
 ];

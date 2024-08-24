@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['main_0',['main',['../main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97',1,'main.cpp']]],
-  ['main_2ecpp_1',['main.cpp',['../main_8cpp.html',1,'']]],
-  ['max_2',['MAX',['../solve_8cpp.html#aacc3ee1a7f283f8ef65cea31f4436a95',1,'solve.cpp']]],
-  ['min_3',['MIN',['../solve_8cpp.html#a74e75242132eaabbc1c512488a135926',1,'solve.cpp']]]
+  ['end_0',['end',['../struct_colors.html#a5de0c8b4371798223d5c03a57cc53571',1,'Colors']]],
+  ['eps_1',['eps',['../utilities_8h.html#a3d8c24629d725b9ef8c238cf27c9b158',1,'utilities.h']]],
+  ['errors_2',['Errors',['../utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b',1,'utilities.h']]],
+  ['errorsmessenger_3',['ErrorsMessenger',['../utilities_8cpp.html#a1526e857ca945460563beedad7b394cc',1,'ErrorsMessenger(Errors error):&#160;utilities.cpp'],['../utilities_8h.html#a1526e857ca945460563beedad7b394cc',1,'ErrorsMessenger(Errors error):&#160;utilities.cpp']]]
 ];

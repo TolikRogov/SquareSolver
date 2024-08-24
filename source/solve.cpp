@@ -1,3 +1,8 @@
+/**
+ * \file solve.cpp
+ * \brief file is responsible for solving quadratic equation with in_out.cpp file information
+ */
+
 #include <stdio.h>
 #include <assert.h>
 #include <math.h>
@@ -6,7 +11,12 @@
 #include "../include/solve.h"
 #include "../include/utilities.h"
 
-static double GetDiscriminant(Coeff *coeff);
+
+/**
+ * \fn static double GetDiscriminant(Coeff* coeff)
+ * \brief a static function calculating discriminant for solving quadratic equation with none zero coefficient a
+ */
+static double GetDiscriminant(Coeff* coeff);
 
 #define MAX(x, y)           \
     ((x) < (y)) ? (y) : (x) \

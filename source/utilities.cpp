@@ -1,3 +1,8 @@
+/**
+ * \file utilities.cpp
+ * \brief file is responsible for provision additional functions for the another files
+ */
+
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>

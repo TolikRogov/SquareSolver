@@ -1,3 +1,8 @@
+/**
+ * \file main.cpp
+ * \brief main file of all program
+ */
+
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>
@@ -14,6 +19,12 @@
         3) custom assert
 */
 
+/**
+ * \fn int main(int argc, char* argv[])
+ * \brief a function runs main functions of all program
+ * \param int argc - variable contains count of parameters for running the program: 1 - only program name, more then 1 - name and running keys
+ * \param char* argv[] - massive of strings contains input running keys
+ */
 int main(int argc, char* argv[]) {
 
     if (argc == 2) {

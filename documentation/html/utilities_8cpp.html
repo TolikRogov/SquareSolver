@@ -102,22 +102,35 @@ $(function(){initNavTree('utilities_8cpp.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">utilities.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>file is responsible for provision additional functions for the another files  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;math.h&gt;</code><br />
 <code>#include &lt;ctype.h&gt;</code><br />
 <code>#include &lt;string.h&gt;</code><br />
-<code>#include &quot;../include/utilities.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="utilities_8h_source.html">../include/utilities.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for utilities.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="utilities_8cpp__incl.png" border="0" usemap="#asource_2utilities_8cpp" alt=""/></div>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a1526e857ca945460563beedad7b394cc" id="r_a1526e857ca945460563beedad7b394cc"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1526e857ca945460563beedad7b394cc">ErrorsMessenger</a> (Errors error)</td></tr>
+<tr class="memitem:a1526e857ca945460563beedad7b394cc" id="r_a1526e857ca945460563beedad7b394cc"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1526e857ca945460563beedad7b394cc">ErrorsMessenger</a> (<a class="el" href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b">Errors</a> error)</td></tr>
+<tr class="memdesc:a1526e857ca945460563beedad7b394cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts an error of type Errors to a string  <br /></td></tr>
 <tr class="separator:a1526e857ca945460563beedad7b394cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af28fe6832f4dd3f13033e5c666525f07" id="r_af28fe6832f4dd3f13033e5c666525f07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28fe6832f4dd3f13033e5c666525f07">ClearBuffer</a> ()</td></tr>
+<tr class="memdesc:af28fe6832f4dd3f13033e5c666525f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function waiting for a new line or end of file when entering quadratic equation coefficient values ​​with the wrong data type  <br /></td></tr>
 <tr class="separator:af28fe6832f4dd3f13033e5c666525f07"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aafdadb4e22e6706240da0ba71e870218" id="r_aafdadb4e22e6706240da0ba71e870218"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aafdadb4e22e6706240da0ba71e870218">NearZero</a> (double n)</td></tr>
+<tr class="memdesc:aafdadb4e22e6706240da0ba71e870218"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function that compares the values ​​of double variables with a very small value to determine whether the variable's value is close to zero, taking into account the double error  <br /></td></tr>
 <tr class="separator:aafdadb4e22e6706240da0ba71e870218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>file is responsible for provision additional functions for the another files </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="af28fe6832f4dd3f13033e5c666525f07" name="af28fe6832f4dd3f13033e5c666525f07"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af28fe6832f4dd3f13033e5c666525f07">&#9670;&#160;</a></span>ClearBuffer()</h2>
 
@@ -133,6 +146,13 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>a function waiting for a new line or end of file when entering quadratic equation coefficient values ​​with the wrong data type </p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="utilities_8cpp_af28fe6832f4dd3f13033e5c666525f07_icgraph.png" border="0" usemap="#autilities_8cpp_af28fe6832f4dd3f13033e5c666525f07_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="a1526e857ca945460563beedad7b394cc" name="a1526e857ca945460563beedad7b394cc"></a>
@@ -144,11 +164,20 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">const char * ErrorsMessenger </td>
           <td>(</td>
-          <td class="paramtype">Errors</td>          <td class="paramname"><span class="paramname"><em>error</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b">Errors</a></td>          <td class="paramname"><span class="paramname"><em>error</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>converts an error of type Errors to a string </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">error</td><td>- a value of error of type Errors </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a string indicating the error value </dd></dl>
 
 </div>
 </div>
@@ -166,6 +195,21 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>a function that compares the values ​​of double variables with a very small value to determine whether the variable's value is close to zero, taking into account the double error </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">n</td><td>- a variable whose value is close to zero needs to be determined </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>1 - if the value of variable is near to zero <br  />
+0 - if the value of variable is far from zero </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="utilities_8cpp_aafdadb4e22e6706240da0ba71e870218_icgraph.png" border="0" usemap="#autilities_8cpp_aafdadb4e22e6706240da0ba71e870218_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>

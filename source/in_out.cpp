@@ -1,3 +1,8 @@
+/**
+ * \file in_out.cpp
+ * \brief file is responsible for input and output information required for solving any quadratic equation
+ */
+
 #include <stdio.h>
 #include <math.h>
 #include <assert.h>
@@ -5,6 +10,11 @@
 #include <string.h>
 
 #include "../include/in_out.h"
+
+/**
+ * \def PRINT_ERROR_STRING(err)
+ * \brief a macros prints error message to console if there is error
+ */
 
 #define PRINT_ERROR_STRING(err)({                                          \
     if (err != NO_ERROR) {                                                \

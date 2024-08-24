@@ -1,3 +1,8 @@
+/**
+ * \file tester.cpp
+ * \brief file is responsible for running unit tests
+ */
+
 #include <stdio.h>
 #include <math.h>
 #include <ctype.h>

@@ -1,108 +1,77 @@
+/**
+ * \file solve.h
+ * \brief file that contains functions and enumerations required for solving quadratic equations
+ */
+
 #ifndef SOLVE_INCLUDE
 #define SOLVE_INCLUDE
 
-/*-----------------------------------------------------------------------------
-
-enum Tests - an enumeration containing variables indicating status of the next running test:
-
-    FAILED_TEST  - test failed
-    CORRECT_TEST - test passed
-
------------------------------------------------------------------------------*/
-
+/**
+ * \enum Tests
+ * \brief an enumeration containing variables indicating status of the next running test
+ */
 typedef enum {
-    FAILED_TEST,
-    CORRECT_TEST
+    FAILED_TEST, /**< test is failed */
+    CORRECT_TEST /**< test is correct */
 } Tests;
 
-/*-----------------------------------------------------------------------------
-
-enum nRoots - an enumeration containing integer variables indicating the number of roots of a quadratic equation:
-
-    INF_ROOTS = -1 - infinite number of roots
-    NO_ROOTS  =  0 - no roots
-    ONE_ROOT  =  1 - one root
-    TWO_ROOTS =  2 - two roots
-
------------------------------------------------------------------------------*/
-
+/**
+ * \enum nRoots
+ * \brief an enumeration containing integer variables indicating the number of roots of a quadratic equation
+ */
 typedef enum {
-    INF_ROOTS = -1,
-    NO_ROOTS,
-    ONE_ROOT,
-    TWO_ROOTS
+    INF_ROOTS = -1, /**< infinite number of roots */
+    NO_ROOTS,       /**< no roots */
+    ONE_ROOT,       /**< one root */
+    TWO_ROOTS       /**< two roots */
 } nRoots;
 
-/*-----------------------------------------------------------------------------
-
-struct Coeff - a structure containing coefficients of a quadratic equation:
-
-    a - first coefficient of equation
-    b - second coefficient of equation
-    c - third coefficient of equation
-
------------------------------------------------------------------------------*/
-
+/**
+ * \struct Coeff
+ * \brief a structure containing coefficients of a quadratic equation
+ */
 struct Coeff {
-    double a;
-    double b;
-    double c;
+    double a; /**< first coefficient of equation */
+    double b; /**< second coefficient of equation */
+    double c; /**< third coefficient of equation */
 };
 
-/*-----------------------------------------------------------------------------
-
-struct Solvers - a structure containing values of roots and their quantity:
-
-    x1        - first root of equation, always less then x2
-    x2        - second root of equation
-    num_roots - number of roots
-
------------------------------------------------------------------------------*/
-
+/**
+ * \struct Solvers
+ * \brief a structure containing values of roots and their quantity
+ */
 struct Solvers {
-    double x1;
-    double x2;
-    nRoots num_roots;
-    Tests status;
+    double x1;          /**< first root of equation */
+    double x2;          /**< second root of equation */
+    nRoots num_roots;   /**< number of roots */
+    Tests status;       /**< test status - failed or correct */
 };
 
-/*-----------------------------------------------------------------------------
-
-Function Solver() - a function that triggers the solution of a linear or quadratic equation depending on the value of parameter a:
-
-    Coeff* coeff       - pointer to structure of type Coeff
-    Solvers* solutions - pointer to structure of type Solvers
-
-returns number of solutions to an equation of type nRoots
-
------------------------------------------------------------------------------*/
-
+/**
+ * \fn nRoots Solver(Coeff* coeff, Solvers* solutions)
+ * \brief a function that triggers the solution of a linear or quadratic equation depending on the value of parameter a
+ * \param Coeff* coeff       - pointer to structure of type Coeff
+ * \param Solvers* solutions - pointer to structure of type Solvers
+ * \return number of solutions to an equation of type nRoots
+ */
 nRoots Solver(Coeff* coeff, Solvers* solutions);
 
-/*-----------------------------------------------------------------------------
-
-Function SolveLine() - a function that solutes a linear equation:
-
-    Coeff* coeff       - pointer to structure of type Coeff
-    Solvers* solutions - pointer to structure of type Solvers
-
-returns number of solutions to the linear equation of type nRoots
-
------------------------------------------------------------------------------*/
-
+/**
+ * \fn nRoots SolveLine(Coeff* coeff, Solvers* solutions)
+ * \brief a function that solutes a linear equation
+ * \param Coeff* coeff       - pointer to structure of type Coeff
+ * \param Solvers* solutions - pointer to structure of type Solvers
+ * \return number of solutions to the linear equation of type nRoots
+ */
 nRoots SolveLine(Coeff* coeff, Solvers* solutions);
 
-/*-----------------------------------------------------------------------------
-
-Function SolveSquare() - a function that solutes a quadratic equation:
-
-    Coeff* coeff       - pointer to structure of type Coeff
-    Solvers* solutions - pointer to structure of type Solvers
-
-returns number of solutions to the quadratic equation of type nRoots
-
------------------------------------------------------------------------------*/
-
+/**
+ * \fn nRoots SolveSquare(Coeff* coeff, Solvers* solutions)
+ * \brief a function that solutes a quadratic equation
+ * \param Coeff* coeff       - pointer to structure of type Coeff
+ * \param Solvers* solutions - pointer to structure of type Solvers
+ * \returns number of solutions to the quadratic equation of type nRoots
+ */
 nRoots SolveSquare(Coeff* coeff, Solvers* solutions);
 
 #endif // SOLVE_INCLUDE

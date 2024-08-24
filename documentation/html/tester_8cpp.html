@@ -102,22 +102,35 @@ $(function(){initNavTree('tester_8cpp.html',''); initResizable(true); });
   <div class="headertitle"><div class="title">tester.cpp File Reference</div></div>
 </div><!--header-->
 <div class="contents">
+
+<p>file is responsible for running unit tests  
+<a href="#details">More...</a></p>
 <div class="textblock"><code>#include &lt;stdio.h&gt;</code><br />
 <code>#include &lt;math.h&gt;</code><br />
 <code>#include &lt;ctype.h&gt;</code><br />
-<code>#include &quot;../include/tester.h&quot;</code><br />
-<code>#include &quot;../include/utilities.h&quot;</code><br />
+<code>#include &quot;<a class="el" href="tester_8h_source.html">../include/tester.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="utilities_8h_source.html">../include/utilities.h</a>&quot;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for tester.cpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="tester_8cpp__incl.png" border="0" usemap="#asource_2tester_8cpp" alt=""/></div>
+</div>
 </div><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a173e4a638f9a265711102103873fc25b" id="r_a173e4a638f9a265711102103873fc25b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a173e4a638f9a265711102103873fc25b">Tester</a> ()</td></tr>
+<tr class="memdesc:a173e4a638f9a265711102103873fc25b"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function containing the massive of structures of type <a class="el" href="struct_test.html" title="a structure containing parameters for the function RunTests()">Test</a> and run them using functions <a class="el" href="tester_8h.html#a15367d5f6752dc0b53588d3f8f1b8df3" title="a function checking the operation of the algorithm for solving a quadratic equation">RunTests()</a> and <a class="el" href="tester_8h.html#a42c2309ea056eb9502185538608be221" title="converts an status of test of type Test to a string">TestsMessenger()</a>  <br /></td></tr>
 <tr class="separator:a173e4a638f9a265711102103873fc25b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15367d5f6752dc0b53588d3f8f1b8df3" id="r_a15367d5f6752dc0b53588d3f8f1b8df3"><td class="memItemLeft" align="right" valign="top">Solvers&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15367d5f6752dc0b53588d3f8f1b8df3">RunTests</a> (Test *controller)</td></tr>
+<tr class="memitem:a15367d5f6752dc0b53588d3f8f1b8df3" id="r_a15367d5f6752dc0b53588d3f8f1b8df3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_solvers.html">Solvers</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a15367d5f6752dc0b53588d3f8f1b8df3">RunTests</a> (<a class="el" href="struct_test.html">Test</a> *controller)</td></tr>
+<tr class="memdesc:a15367d5f6752dc0b53588d3f8f1b8df3"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function checking the operation of the algorithm for solving a quadratic equation  <br /></td></tr>
 <tr class="separator:a15367d5f6752dc0b53588d3f8f1b8df3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a42c2309ea056eb9502185538608be221" id="r_a42c2309ea056eb9502185538608be221"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42c2309ea056eb9502185538608be221">TestsMessenger</a> (Tests test)</td></tr>
+<tr class="memitem:a42c2309ea056eb9502185538608be221" id="r_a42c2309ea056eb9502185538608be221"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a42c2309ea056eb9502185538608be221">TestsMessenger</a> (<a class="el" href="solve_8h.html#a44111c317cc6bb28715701cc508210a0">Tests</a> test)</td></tr>
+<tr class="memdesc:a42c2309ea056eb9502185538608be221"><td class="mdescLeft">&#160;</td><td class="mdescRight">converts an status of test of type <a class="el" href="struct_test.html" title="a structure containing parameters for the function RunTests()">Test</a> to a string  <br /></td></tr>
 <tr class="separator:a42c2309ea056eb9502185538608be221"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Function Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>file is responsible for running unit tests </p>
+</div><h2 class="groupheader">Function Documentation</h2>
 <a id="a15367d5f6752dc0b53588d3f8f1b8df3" name="a15367d5f6752dc0b53588d3f8f1b8df3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a15367d5f6752dc0b53588d3f8f1b8df3">&#9670;&#160;</a></span>RunTests()</h2>
 
@@ -125,13 +138,32 @@ Functions</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Solvers RunTests </td>
+          <td class="memname"><a class="el" href="struct_solvers.html">Solvers</a> RunTests </td>
           <td>(</td>
-          <td class="paramtype">Test *</td>          <td class="paramname"><span class="paramname"><em>controller</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_test.html">Test</a> *</td>          <td class="paramname"><span class="paramname"><em>controller</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>a function checking the operation of the algorithm for solving a quadratic equation </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Test*</td><td>controller - a pointer to a structure of type <a class="el" href="struct_test.html" title="a structure containing parameters for the function RunTests()">Test</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status of the next running test of type <a class="el" href="struct_test.html" title="a structure containing parameters for the function RunTests()">Test</a> </dd></dl>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="tester_8cpp_a15367d5f6752dc0b53588d3f8f1b8df3_cgraph.png" border="0" usemap="#atester_8cpp_a15367d5f6752dc0b53588d3f8f1b8df3_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="tester_8cpp_a15367d5f6752dc0b53588d3f8f1b8df3_icgraph.png" border="0" usemap="#atester_8cpp_a15367d5f6752dc0b53588d3f8f1b8df3_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
@@ -150,6 +182,18 @@ Functions</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>a function containing the massive of structures of type <a class="el" href="struct_test.html" title="a structure containing parameters for the function RunTests()">Test</a> and run them using functions <a class="el" href="tester_8h.html#a15367d5f6752dc0b53588d3f8f1b8df3" title="a function checking the operation of the algorithm for solving a quadratic equation">RunTests()</a> and <a class="el" href="tester_8h.html#a42c2309ea056eb9502185538608be221" title="converts an status of test of type Test to a string">TestsMessenger()</a> </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="tester_8cpp_a173e4a638f9a265711102103873fc25b_cgraph.png" border="0" usemap="#atester_8cpp_a173e4a638f9a265711102103873fc25b_cgraph" alt=""/></div>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="tester_8cpp_a173e4a638f9a265711102103873fc25b_icgraph.png" border="0" usemap="#atester_8cpp_a173e4a638f9a265711102103873fc25b_icgraph" alt=""/></div>
+</div>
+
 </div>
 </div>
 <a id="a42c2309ea056eb9502185538608be221" name="a42c2309ea056eb9502185538608be221"></a>
@@ -161,11 +205,25 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">const char * TestsMessenger </td>
           <td>(</td>
-          <td class="paramtype">Tests</td>          <td class="paramname"><span class="paramname"><em>test</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="solve_8h.html#a44111c317cc6bb28715701cc508210a0">Tests</a></td>          <td class="paramname"><span class="paramname"><em>test</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>converts an status of test of type <a class="el" href="struct_test.html" title="a structure containing parameters for the function RunTests()">Test</a> to a string </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">Tests</td><td>test - a value of status of test of type <a class="el" href="struct_test.html" title="a structure containing parameters for the function RunTests()">Test</a> </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>a string indicating the status of test </dd></dl>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="tester_8cpp_a42c2309ea056eb9502185538608be221_icgraph.png" border="0" usemap="#atester_8cpp_a42c2309ea056eb9502185538608be221_icgraph" alt=""/></div>
+</div>
 
 </div>
 </div>
