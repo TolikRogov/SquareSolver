@@ -6,10 +6,10 @@
 
 #include "../include/in_out.h"
 
-#define PRINT_ERROR_STRING(err)({                                        \
-    if (err != NO_ERROR) {                                              \
+#define PRINT_ERROR_STRING(err)({                                          \
+    if (err != NO_ERROR) {                                                \
         printf("%s%s%s\n", colors.red, ErrorsMessenger(err), colors.end); \
-        return 0;                                                       \
+        return 0;                                                         \
     }})
 
 int Normal() {
