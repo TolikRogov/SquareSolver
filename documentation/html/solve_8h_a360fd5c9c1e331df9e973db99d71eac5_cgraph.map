@@ -1,0 +1,13 @@
+<map id="Solver" name="Solver">
+<area shape="rect" id="Node000001" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par..." alt="" coords="5,22,64,48"/>
+<area shape="rect" id="Node000002" href="$utilities_8cpp.html#aafdadb4e22e6706240da0ba71e870218" title="a function that compares the values ​​of double variables with a very small value to determine whethe..." alt="" coords="275,22,350,48"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,21,111,7,159,3,207,7,260,18,259,23,207,13,159,8,112,13,65,26"/>
+<area shape="rect" id="Node000003" href="$solve_8cpp.html#a279e7254693e11b493551bc784828792" title="a function that solutes a linear equation" alt="" coords="120,22,198,48"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="64,33,104,33,104,38,64,38"/>
+<area shape="rect" id="Node000004" href="$solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1" title="a function that solutes a quadratic equation" alt="" coords="112,72,207,97"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="65,44,112,63,110,68,63,49"/>
+<area shape="poly" id="edge3_Node000003_Node000002" title=" " alt="" coords="199,33,259,33,259,38,199,38"/>
+<area shape="poly" id="edge6_Node000004_Node000002" title=" " alt="" coords="201,69,260,49,262,54,203,74"/>
+<area shape="rect" id="Node000005" href="$solve_8cpp.html#ac330ab8e5170adad03c8779c7dbda27b" title="a static function calculating discriminant for solving quadratic equation with none zero coefficient ..." alt="" coords="255,72,370,97"/>
+<area shape="poly" id="edge5_Node000004_Node000005" title=" " alt="" coords="208,82,239,82,239,87,208,87"/>
+</map>

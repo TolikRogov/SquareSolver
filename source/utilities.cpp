@@ -25,5 +25,5 @@ void ClearBuffer() {
 }
 
 int NearZero(double n) {
-    return fabs(n) < eps;
+    return fabs(n) < Eps;
 }

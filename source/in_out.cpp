@@ -47,26 +47,36 @@ Errors PrintAnswer(Solvers* solutions) {
 
     switch(solutions->num_roots) {
         case NO_ROOTS: {
+
             printf("%s%s%s\n", colors.red, "No roots", colors.end);
+
             break;
         }
         case ONE_ROOT: {
+
             printf("%s%s%s\n", colors.teal_bold, "One root", colors.end);
             printf("%sx = %lg%s\n", colors.yellow, solutions->x1, colors.end);
+
             break;
         }
         case TWO_ROOTS: {
+
             printf("%s%s%s\n", colors.teal_bold, "Two roots", colors.end);
             printf("%sx1 = %lg%s\n", colors.green, solutions->x1, colors.end);
             printf("%sx2 = %lg%s\n", colors.green, solutions->x2, colors.end);
+
             break;
         }
         case INF_ROOTS: {
+
             printf("%s%s%s\n", colors.pink, "Infinite amount of roots", colors.end);
+
             break;
         }
         default: {
+
             printf("%s%s%s\n", colors.red, "main(): ERROR: amount of roots is not defined", colors.end);
+
             return UNDEFINED_NUMBER_ROOTS;
         }
     }
@@ -78,6 +88,7 @@ Errors Insert(double* coeff, int cnt) {
     assert(coeff);
 
     printf("%s# Enter coefficient №%d: %s", colors.blue_bold, cnt, colors.end);
+
     int k = 0;
     while (scanf("%lg", coeff) != 1 || getchar() != '\n') {
         ClearBuffer();

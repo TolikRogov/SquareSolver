@@ -1,0 +1,57 @@
+\doxysection{source/in\+\_\+out.cpp File Reference}
+\hypertarget{in__out_8cpp}{}\label{in__out_8cpp}\index{source/in\_out.cpp@{source/in\_out.cpp}}
+
+
+file is responsible for input and output information required for solving any quadratic equation  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include $<$string.\+h$>$}\newline
+{\ttfamily \#include "{}../include/in\+\_\+out.\+h"{}}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{in__out_8cpp_a8567ea59d8f7f698518096bba762ce1f}{PRINT\+\_\+\+ERROR\+\_\+\+STRING}}(err)
+\begin{DoxyCompactList}\small\item\em a macros prints error message to console if there is error \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{in__out_8cpp_a1fdf55ed3dd9b244e848d6d484ed6233}\label{in__out_8cpp_a1fdf55ed3dd9b244e848d6d484ed6233} 
+int {\bfseries Normal} ()
+\item 
+\Hypertarget{in__out_8cpp_a627e09d737ba3116e5a4ea59eaac08a6}\label{in__out_8cpp_a627e09d737ba3116e5a4ea59eaac08a6} 
+Errors {\bfseries Print\+Answer} (Solvers \texorpdfstring{$\ast$}{*}solutions)
+\item 
+\Hypertarget{in__out_8cpp_a513843f0fc05028770e357e13f8fb395}\label{in__out_8cpp_a513843f0fc05028770e357e13f8fb395} 
+Errors {\bfseries Insert} (double \texorpdfstring{$\ast$}{*}coeff, int cnt)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+file is responsible for input and output information required for solving any quadratic equation 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{in__out_8cpp_a8567ea59d8f7f698518096bba762ce1f}\index{in\_out.cpp@{in\_out.cpp}!PRINT\_ERROR\_STRING@{PRINT\_ERROR\_STRING}}
+\index{PRINT\_ERROR\_STRING@{PRINT\_ERROR\_STRING}!in\_out.cpp@{in\_out.cpp}}
+\doxysubsubsection{\texorpdfstring{PRINT\_ERROR\_STRING}{PRINT\_ERROR\_STRING}}
+{\footnotesize\ttfamily \label{in__out_8cpp_a8567ea59d8f7f698518096bba762ce1f} 
+\#define PRINT\+\_\+\+ERROR\+\_\+\+STRING(\begin{DoxyParamCaption}\item[{}]{err}{}\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \ \ (\{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ if\ (err\ !=\ NO\_ERROR)\ \{\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ printf(\textcolor{stringliteral}{"{}\%s\%s\%s\(\backslash\)n"{}},\ colors.red,\ ErrorsMessenger(err),\ colors.end);\ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ \ \ \ \ \textcolor{keywordflow}{return}\ 0;\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \(\backslash\)}
+\DoxyCodeLine{\ \ \ \ \}\})}
+
+\end{DoxyCode}
+
+
+a macros prints error message to console if there is error 
+

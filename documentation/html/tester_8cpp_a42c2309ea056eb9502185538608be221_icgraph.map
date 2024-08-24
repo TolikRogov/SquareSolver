@@ -1,0 +1,7 @@
+<map id="TestsMessenger" name="TestsMessenger">
+<area shape="rect" id="Node000001" title="converts an status of test of type Test to a string" alt="" coords="208,5,325,31"/>
+<area shape="rect" id="Node000002" href="$tester_8cpp.html#a173e4a638f9a265711102103873fc25b" title="a function containing the massive of structures of type Test and run them using functions RunTests() ..." alt="" coords="103,5,160,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="193,21,160,21,160,16,193,16"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="a function runs main functions of all program" alt="" coords="5,5,55,31"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="87,21,55,21,55,16,87,16"/>
+</map>

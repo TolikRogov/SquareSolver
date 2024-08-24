@@ -1,0 +1,62 @@
+\doxysection{source/solve.cpp File Reference}
+\hypertarget{solve_8cpp}{}\label{solve_8cpp}\index{source/solve.cpp@{source/solve.cpp}}
+
+
+file is responsible for solving quadratic equation with \doxylink{in__out_8cpp}{in\+\_\+out.\+cpp} file information  
+
+
+{\ttfamily \#include $<$stdio.\+h$>$}\newline
+{\ttfamily \#include $<$assert.\+h$>$}\newline
+{\ttfamily \#include $<$math.\+h$>$}\newline
+{\ttfamily \#include $<$ctype.\+h$>$}\newline
+{\ttfamily \#include "{}../include/solve.\+h"{}}\newline
+{\ttfamily \#include "{}../include/utilities.\+h"{}}\newline
+\doxysubsubsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \mbox{\hyperlink{solve_8cpp_aacc3ee1a7f283f8ef65cea31f4436a95}{MAX}}(x,  y)
+\item 
+\#define \mbox{\hyperlink{solve_8cpp_a74e75242132eaabbc1c512488a135926}{MIN}}(x,  y)
+\end{DoxyCompactItemize}
+\doxysubsubsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+\Hypertarget{solve_8cpp_a279e7254693e11b493551bc784828792}\label{solve_8cpp_a279e7254693e11b493551bc784828792} 
+n\+Roots {\bfseries Solve\+Line} (Coeff \texorpdfstring{$\ast$}{*}coeff, Solvers \texorpdfstring{$\ast$}{*}solutions)
+\item 
+\Hypertarget{solve_8cpp_aae022c6c61a668fbb2774df6f709f6b1}\label{solve_8cpp_aae022c6c61a668fbb2774df6f709f6b1} 
+n\+Roots {\bfseries Solve\+Square} (Coeff \texorpdfstring{$\ast$}{*}coeff, Solvers \texorpdfstring{$\ast$}{*}solutions)
+\item 
+\Hypertarget{solve_8cpp_a360fd5c9c1e331df9e973db99d71eac5}\label{solve_8cpp_a360fd5c9c1e331df9e973db99d71eac5} 
+n\+Roots {\bfseries Solver} (Coeff \texorpdfstring{$\ast$}{*}coeff, Solvers \texorpdfstring{$\ast$}{*}solutions)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+file is responsible for solving quadratic equation with \doxylink{in__out_8cpp}{in\+\_\+out.\+cpp} file information 
+
+
+
+\doxysubsection{Macro Definition Documentation}
+\Hypertarget{solve_8cpp_aacc3ee1a7f283f8ef65cea31f4436a95}\index{solve.cpp@{solve.cpp}!MAX@{MAX}}
+\index{MAX@{MAX}!solve.cpp@{solve.cpp}}
+\doxysubsubsection{\texorpdfstring{MAX}{MAX}}
+{\footnotesize\ttfamily \label{solve_8cpp_aacc3ee1a7f283f8ef65cea31f4436a95} 
+\#define MAX(\begin{DoxyParamCaption}\item[{}]{x}{, }\item[{}]{y}{}\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \ \ ((x)\ <\ (y))\ ?\ (y)\ :\ (x)\ \(\backslash\)}
+
+\end{DoxyCode}
+\Hypertarget{solve_8cpp_a74e75242132eaabbc1c512488a135926}\index{solve.cpp@{solve.cpp}!MIN@{MIN}}
+\index{MIN@{MIN}!solve.cpp@{solve.cpp}}
+\doxysubsubsection{\texorpdfstring{MIN}{MIN}}
+{\footnotesize\ttfamily \label{solve_8cpp_a74e75242132eaabbc1c512488a135926} 
+\#define MIN(\begin{DoxyParamCaption}\item[{}]{x}{, }\item[{}]{y}{}\end{DoxyParamCaption})}
+
+{\bfseries Value\+:}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{\ \ \ \ ((x)\ >\ (y))\ ?\ (y)\ :\ (x)\ \(\backslash\)}
+
+\end{DoxyCode}

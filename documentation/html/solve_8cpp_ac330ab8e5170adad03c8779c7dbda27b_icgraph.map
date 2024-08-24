@@ -1,0 +1,16 @@
+<map id="GetDiscriminant" name="GetDiscriminant">
+<area shape="rect" id="Node000001" title="a static function calculating discriminant for solving quadratic equation with none zero coefficient ..." alt="" coords="589,29,704,55"/>
+<area shape="rect" id="Node000002" href="$solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1" title="a function that solutes a quadratic equation" alt="" coords="446,29,541,55"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="573,45,541,45,541,40,573,40"/>
+<area shape="rect" id="Node000003" href="$solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par..." alt="" coords="339,29,398,55"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="430,45,398,45,398,40,430,40"/>
+<area shape="rect" id="Node000004" href="$in__out_8cpp.html#a1fdf55ed3dd9b244e848d6d484ed6233" title="a function that runs SolveSquare with user&#39;s coefficients" alt="" coords="103,5,166,31"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="323,40,166,24,167,19,324,35"/>
+<area shape="rect" id="Node000006" href="$tester_8cpp.html#a15367d5f6752dc0b53588d3f8f1b8df3" title="a function checking the operation of the algorithm for solving a quadratic equation" alt="" coords="214,55,291,80"/>
+<area shape="poly" id="edge5_Node000003_Node000006" title=" " alt="" coords="325,54,292,62,291,56,324,49"/>
+<area shape="rect" id="Node000005" href="$main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97" title="a function runs main functions of all program" alt="" coords="5,31,55,56"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="89,32,56,40,54,35,87,27"/>
+<area shape="rect" id="Node000007" href="$tester_8cpp.html#a173e4a638f9a265711102103873fc25b" title="a function containing the massive of structures of type Test and run them using functions RunTests() ..." alt="" coords="106,55,163,80"/>
+<area shape="poly" id="edge6_Node000006_Node000007" title=" " alt="" coords="198,70,163,70,163,65,198,65"/>
+<area shape="poly" id="edge7_Node000007_Node000005" title=" " alt="" coords="90,60,55,52,56,47,91,55"/>
+</map>

@@ -1,0 +1,461 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#a31ef896668b24610653ef5155d5b5e65"><param name="Name" value="a"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#a31ef896668b24610653ef5155d5b5e65"><param name="Name" value="Coeff"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#ad913c7bb49e3af7d88f137c3d98d59e9"><param name="Name" value="a"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#ad913c7bb49e3af7d88f137c3d98d59e9"><param name="Name" value="Test"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#a8c73435abba29130cd3a7682173a4f48"><param name="Name" value="b"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#a8c73435abba29130cd3a7682173a4f48"><param name="Name" value="Coeff"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#a88f05bff95bf51e1fdc2b7986b2884d0"><param name="Name" value="b"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#a88f05bff95bf51e1fdc2b7986b2884d0"><param name="Name" value="Test"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a25d32f2624cf7acbbd616d82a6932e43"><param name="Name" value="blue[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a4e0fc018db5139dfa636d44d5f770249"><param name="Name" value="blue_bold[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#afd3e5355cf01a171731ed46935eaa415"><param name="Name" value="c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#afd3e5355cf01a171731ed46935eaa415"><param name="Name" value="Coeff"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#ae48e61784bbb421776d872df4d287b4e"><param name="Name" value="c"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#ae48e61784bbb421776d872df4d287b4e"><param name="Name" value="Test"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#af28fe6832f4dd3f13033e5c666525f07"><param name="Name" value="ClearBuffer()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#af28fe6832f4dd3f13033e5c666525f07"><param name="Name" value="utilities.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#af28fe6832f4dd3f13033e5c666525f07"><param name="Name" value="ClearBuffer()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#af28fe6832f4dd3f13033e5c666525f07"><param name="Name" value="utilities.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html"><param name="Name" value="Coeff"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html"><param name="Name" value="Coeff"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#a31ef896668b24610653ef5155d5b5e65"><param name="Name" value="a"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html"><param name="Name" value="Coeff"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#a8c73435abba29130cd3a7682173a4f48"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html"><param name="Name" value="Coeff"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_coeff.html#afd3e5355cf01a171731ed46935eaa415"><param name="Name" value="c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a25d32f2624cf7acbbd616d82a6932e43"><param name="Name" value="blue[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a4e0fc018db5139dfa636d44d5f770249"><param name="Name" value="blue_bold[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a5de0c8b4371798223d5c03a57cc53571"><param name="Name" value="end[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a5954ab154d318fafc2a924fe156f9a85"><param name="Name" value="green[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#ad6be2715005faf1ca7410e6114cc0223"><param name="Name" value="green_bold[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a92a6d268c9cc08096fdab7059d0bfe3c"><param name="Name" value="pink[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a86a7f964be1d93844d81e4a0729d41d1"><param name="Name" value="pink_bold[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a08e8a177ccd6ed76c42db132120c2c8d"><param name="Name" value="red[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#ac55f2aba1ce0e6e9885d096d0ce6e577"><param name="Name" value="red_bold[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#ad9fdec991786f3df4846440b47f7ecfc"><param name="Name" value="teal[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a4fd825e71ec828d7d4e9ed2343611d8a"><param name="Name" value="teal_bold[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a01c23a36a248bc92c879b70ce6bc4ad8"><param name="Name" value="colors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a9de096113ed864c033de62221eb04542"><param name="Name" value="white[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a909af382bcc34dd194fa2cfa0bf4ae48"><param name="Name" value="white_bold[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#ad4c099800a24156974ef67ea5ee95e0f"><param name="Name" value="yellow[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html"><param name="Name" value="Colors"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#afd85b88ae614ea32df1347fb8bd7ceb1"><param name="Name" value="yellow_bold[20]"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a44111c317cc6bb28715701cc508210a0ae2b1e04bd2b0ac5f395481156c8baf89"><param name="Name" value="CORRECT_TEST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a5de0c8b4371798223d5c03a57cc53571"><param name="Name" value="end[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a1cd15547aa7a518489d755671d9e3b6f"><param name="Name" value="Eps"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b"><param name="Name" value="Errors"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#a1526e857ca945460563beedad7b394cc"><param name="Name" value="ErrorsMessenger(Errors error)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#a1526e857ca945460563beedad7b394cc"><param name="Name" value="utilities.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a1526e857ca945460563beedad7b394cc"><param name="Name" value="ErrorsMessenger(Errors error)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a1526e857ca945460563beedad7b394cc"><param name="Name" value="utilities.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a44111c317cc6bb28715701cc508210a0a98f2d909d60e68562954d796b6b68b45"><param name="Name" value="FAILED_TEST"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#ac330ab8e5170adad03c8779c7dbda27b"><param name="Name" value="GetDiscriminant(Coeff *coeff)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a5954ab154d318fafc2a924fe156f9a85"><param name="Name" value="green[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#ad6be2715005faf1ca7410e6114cc0223"><param name="Name" value="green_bold[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html"><param name="Name" value="in_out.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a513843f0fc05028770e357e13f8fb395"><param name="Name" value="Insert(double *coeff, int cnt)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html"><param name="Name" value="in_out.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a1fdf55ed3dd9b244e848d6d484ed6233"><param name="Name" value="Normal()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html"><param name="Name" value="in_out.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a8567ea59d8f7f698518096bba762ce1f"><param name="Name" value="PRINT_ERROR_STRING(err)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html"><param name="Name" value="in_out.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a627e09d737ba3116e5a4ea59eaac08a6"><param name="Name" value="PrintAnswer(Solvers *solutions)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html"><param name="Name" value="in_out.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a513843f0fc05028770e357e13f8fb395"><param name="Name" value="Insert(double *coeff, int cnt)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html"><param name="Name" value="in_out.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a1fdf55ed3dd9b244e848d6d484ed6233"><param name="Name" value="Normal()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html"><param name="Name" value="in_out.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a627e09d737ba3116e5a4ea59eaac08a6"><param name="Name" value="PrintAnswer(Solvers *solutions)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8a5a79e9e49077da58fe5d46a98f0b5e36"><param name="Name" value="INF_ROOTS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a513843f0fc05028770e357e13f8fb395"><param name="Name" value="Insert(double *coeff, int cnt)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a513843f0fc05028770e357e13f8fb395"><param name="Name" value="in_out.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a513843f0fc05028770e357e13f8fb395"><param name="Name" value="Insert(double *coeff, int cnt)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a513843f0fc05028770e357e13f8fb395"><param name="Name" value="in_out.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="Name" value="main(int argc, char *argv[])"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="main_8cpp.html#a0ddf1224851353fc92bfbff6f499fa97"><param name="Name" value="main.cpp"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#aacc3ee1a7f283f8ef65cea31f4436a95"><param name="Name" value="MAX(x, y)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#a74e75242132eaabbc1c512488a135926"><param name="Name" value="MIN(x, y)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#abf1425aca11fd9fbf6327a1fe4dd9657"><param name="Name" value="n_roots_right"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#ae7082701767025378b6bec081a473173"><param name="Name" value="n_test"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#aafdadb4e22e6706240da0ba71e870218"><param name="Name" value="NearZero(double n)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#aafdadb4e22e6706240da0ba71e870218"><param name="Name" value="utilities.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#aafdadb4e22e6706240da0ba71e870218"><param name="Name" value="NearZero(double n)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#aafdadb4e22e6706240da0ba71e870218"><param name="Name" value="utilities.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76babf350750d0d4fabd8954c0f1e9bbae94"><param name="Name" value="NO_ERROR"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8ab9a321da349ac1355b717745736ad90c"><param name="Name" value="NO_ROOTS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a1fdf55ed3dd9b244e848d6d484ed6233"><param name="Name" value="Normal()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a1fdf55ed3dd9b244e848d6d484ed6233"><param name="Name" value="in_out.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a1fdf55ed3dd9b244e848d6d484ed6233"><param name="Name" value="Normal()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a1fdf55ed3dd9b244e848d6d484ed6233"><param name="Name" value="in_out.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8"><param name="Name" value="nRoots"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html#a9cddd25802b71d7be2c41c61a4b99885"><param name="Name" value="num_roots"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8a6700c0f6efd23571cb22aefd2510b1cf"><param name="Name" value="ONE_ROOT"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a92a6d268c9cc08096fdab7059d0bfe3c"><param name="Name" value="pink[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a86a7f964be1d93844d81e4a0729d41d1"><param name="Name" value="pink_bold[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a8567ea59d8f7f698518096bba762ce1f"><param name="Name" value="PRINT_ERROR_STRING(err)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a627e09d737ba3116e5a4ea59eaac08a6"><param name="Name" value="PrintAnswer(Solvers *solutions)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8cpp.html#a627e09d737ba3116e5a4ea59eaac08a6"><param name="Name" value="in_out.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a627e09d737ba3116e5a4ea59eaac08a6"><param name="Name" value="PrintAnswer(Solvers *solutions)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="in__out_8h.html#a627e09d737ba3116e5a4ea59eaac08a6"><param name="Name" value="in_out.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a08e8a177ccd6ed76c42db132120c2c8d"><param name="Name" value="red[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#ac55f2aba1ce0e6e9885d096d0ce6e577"><param name="Name" value="red_bold[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a15367d5f6752dc0b53588d3f8f1b8df3"><param name="Name" value="RunTests(Test *controller)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a15367d5f6752dc0b53588d3f8f1b8df3"><param name="Name" value="tester.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a15367d5f6752dc0b53588d3f8f1b8df3"><param name="Name" value="RunTests(Test *controller)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a15367d5f6752dc0b53588d3f8f1b8df3"><param name="Name" value="tester.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html"><param name="Name" value="solve.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#ac330ab8e5170adad03c8779c7dbda27b"><param name="Name" value="GetDiscriminant(Coeff *coeff)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html"><param name="Name" value="solve.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#aacc3ee1a7f283f8ef65cea31f4436a95"><param name="Name" value="MAX(x, y)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html"><param name="Name" value="solve.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#a74e75242132eaabbc1c512488a135926"><param name="Name" value="MIN(x, y)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html"><param name="Name" value="solve.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#a279e7254693e11b493551bc784828792"><param name="Name" value="SolveLine(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html"><param name="Name" value="solve.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5"><param name="Name" value="Solver(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html"><param name="Name" value="solve.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1"><param name="Name" value="SolveSquare(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a44111c317cc6bb28715701cc508210a0ae2b1e04bd2b0ac5f395481156c8baf89"><param name="Name" value="CORRECT_TEST"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a44111c317cc6bb28715701cc508210a0a98f2d909d60e68562954d796b6b68b45"><param name="Name" value="FAILED_TEST"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8a5a79e9e49077da58fe5d46a98f0b5e36"><param name="Name" value="INF_ROOTS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8ab9a321da349ac1355b717745736ad90c"><param name="Name" value="NO_ROOTS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8"><param name="Name" value="nRoots"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8a6700c0f6efd23571cb22aefd2510b1cf"><param name="Name" value="ONE_ROOT"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a279e7254693e11b493551bc784828792"><param name="Name" value="SolveLine(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a360fd5c9c1e331df9e973db99d71eac5"><param name="Name" value="Solver(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#aae022c6c61a668fbb2774df6f709f6b1"><param name="Name" value="SolveSquare(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a44111c317cc6bb28715701cc508210a0"><param name="Name" value="Tests"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html"><param name="Name" value="solve.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8a876622d3c0b008da13a3685c64714e81"><param name="Name" value="TWO_ROOTS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#a279e7254693e11b493551bc784828792"><param name="Name" value="SolveLine(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#a279e7254693e11b493551bc784828792"><param name="Name" value="solve.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a279e7254693e11b493551bc784828792"><param name="Name" value="SolveLine(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a279e7254693e11b493551bc784828792"><param name="Name" value="solve.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="index.html"><param name="Name" value="Solver of square equations"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5"><param name="Name" value="Solver(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5"><param name="Name" value="solve.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a360fd5c9c1e331df9e973db99d71eac5"><param name="Name" value="Solver(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a360fd5c9c1e331df9e973db99d71eac5"><param name="Name" value="solve.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html"><param name="Name" value="Solvers"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html"><param name="Name" value="Solvers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html#a9cddd25802b71d7be2c41c61a4b99885"><param name="Name" value="num_roots"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html"><param name="Name" value="Solvers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html#a4c148f390815ecc4ac1bfb0c0fd8ff05"><param name="Name" value="status"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html"><param name="Name" value="Solvers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html#a44308ec3f1f390335b5cc38eec4d1804"><param name="Name" value="x1"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html"><param name="Name" value="Solvers"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html#a9f8bfcce28eb109ed84ccd97ebb4a01a"><param name="Name" value="x2"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1"><param name="Name" value="SolveSquare(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1"><param name="Name" value="solve.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#aae022c6c61a668fbb2774df6f709f6b1"><param name="Name" value="SolveSquare(Coeff *coeff, Solvers *solutions)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#aae022c6c61a668fbb2774df6f709f6b1"><param name="Name" value="solve.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html#a4c148f390815ecc4ac1bfb0c0fd8ff05"><param name="Name" value="status"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#ad9fdec991786f3df4846440b47f7ecfc"><param name="Name" value="teal[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a4fd825e71ec828d7d4e9ed2343611d8a"><param name="Name" value="teal_bold[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html"><param name="Name" value="Test"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html"><param name="Name" value="Test"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#ad913c7bb49e3af7d88f137c3d98d59e9"><param name="Name" value="a"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html"><param name="Name" value="Test"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#a88f05bff95bf51e1fdc2b7986b2884d0"><param name="Name" value="b"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html"><param name="Name" value="Test"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#ae48e61784bbb421776d872df4d287b4e"><param name="Name" value="c"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html"><param name="Name" value="Test"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#abf1425aca11fd9fbf6327a1fe4dd9657"><param name="Name" value="n_roots_right"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html"><param name="Name" value="Test"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#ae7082701767025378b6bec081a473173"><param name="Name" value="n_test"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html"><param name="Name" value="Test"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#aa8168e919a4a2ee6f744f1a510b6ec0f"><param name="Name" value="x1_right"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html"><param name="Name" value="Test"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#a83132cb3d01f51d1c60dc1a8791ad828"><param name="Name" value="x2_right"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a173e4a638f9a265711102103873fc25b"><param name="Name" value="Tester()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a173e4a638f9a265711102103873fc25b"><param name="Name" value="tester.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a173e4a638f9a265711102103873fc25b"><param name="Name" value="Tester()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a173e4a638f9a265711102103873fc25b"><param name="Name" value="tester.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html"><param name="Name" value="tester.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a15367d5f6752dc0b53588d3f8f1b8df3"><param name="Name" value="RunTests(Test *controller)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html"><param name="Name" value="tester.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a173e4a638f9a265711102103873fc25b"><param name="Name" value="Tester()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html"><param name="Name" value="tester.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a42c2309ea056eb9502185538608be221"><param name="Name" value="TestsMessenger(Tests test)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html"><param name="Name" value="tester.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a15367d5f6752dc0b53588d3f8f1b8df3"><param name="Name" value="RunTests(Test *controller)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html"><param name="Name" value="tester.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a173e4a638f9a265711102103873fc25b"><param name="Name" value="Tester()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html"><param name="Name" value="tester.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a42c2309ea056eb9502185538608be221"><param name="Name" value="TestsMessenger(Tests test)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#a44111c317cc6bb28715701cc508210a0"><param name="Name" value="Tests"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a42c2309ea056eb9502185538608be221"><param name="Name" value="TestsMessenger(Tests test)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8cpp.html#a42c2309ea056eb9502185538608be221"><param name="Name" value="tester.cpp"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a42c2309ea056eb9502185538608be221"><param name="Name" value="TestsMessenger(Tests test)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="tester_8h.html#a42c2309ea056eb9502185538608be221"><param name="Name" value="tester.h"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="solve_8h.html#ad45b91d5440a50688ff3fe1be543c0e8a876622d3c0b008da13a3685c64714e81"><param name="Name" value="TWO_ROOTS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76ba3ebcc769104b7c4590211b976d2a56eb"><param name="Name" value="UNDEFINED_NUMBER_ROOTS"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html"><param name="Name" value="utilities.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#af28fe6832f4dd3f13033e5c666525f07"><param name="Name" value="ClearBuffer()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html"><param name="Name" value="utilities.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#a1526e857ca945460563beedad7b394cc"><param name="Name" value="ErrorsMessenger(Errors error)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html"><param name="Name" value="utilities.cpp"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8cpp.html#aafdadb4e22e6706240da0ba71e870218"><param name="Name" value="NearZero(double n)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#af28fe6832f4dd3f13033e5c666525f07"><param name="Name" value="ClearBuffer()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a01c23a36a248bc92c879b70ce6bc4ad8"><param name="Name" value="colors"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a1cd15547aa7a518489d755671d9e3b6f"><param name="Name" value="Eps"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b"><param name="Name" value="Errors"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a1526e857ca945460563beedad7b394cc"><param name="Name" value="ErrorsMessenger(Errors error)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#aafdadb4e22e6706240da0ba71e870218"><param name="Name" value="NearZero(double n)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76babf350750d0d4fabd8954c0f1e9bbae94"><param name="Name" value="NO_ERROR"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76ba3ebcc769104b7c4590211b976d2a56eb"><param name="Name" value="UNDEFINED_NUMBER_ROOTS"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html"><param name="Name" value="utilities.h"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76ba14b1319da25660f11784293858ac7847"><param name="Name" value="WRONG_READING"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a9de096113ed864c033de62221eb04542"><param name="Name" value="white[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#a909af382bcc34dd194fa2cfa0bf4ae48"><param name="Name" value="white_bold[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76ba14b1319da25660f11784293858ac7847"><param name="Name" value="WRONG_READING"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html#a44308ec3f1f390335b5cc38eec4d1804"><param name="Name" value="x1"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#aa8168e919a4a2ee6f744f1a510b6ec0f"><param name="Name" value="x1_right"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_solvers.html#a9f8bfcce28eb109ed84ccd97ebb4a01a"><param name="Name" value="x2"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_test.html#a83132cb3d01f51d1c60dc1a8791ad828"><param name="Name" value="x2_right"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#ad4c099800a24156974ef67ea5ee95e0f"><param name="Name" value="yellow[20]"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="struct_colors.html#afd85b88ae614ea32df1347fb8bd7ceb1"><param name="Name" value="yellow_bold[20]"></OBJECT>
+</UL>
+</BODY>
+</HTML>

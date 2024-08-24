@@ -1,0 +1,16 @@
+<map id="/Users/anatolij/Documents/GitHub/SquareSolver/include/utilities.h" name="/Users/anatolij/Documents/GitHub/SquareSolver/include/utilities.h">
+<area shape="rect" id="Node000001" title="file contains additional functions, structures and enumerations for another files" alt="" coords="354,5,547,61"/>
+<area shape="rect" id="Node000002" href="$in__out_8h.html" title="file contains functions for input and output coefficients of quadratic equations" alt="" coords="86,109,279,165"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="365,69,255,111,253,106,363,64"/>
+<area shape="rect" id="Node000004" href="$main_8cpp.html" title="main file of all program" alt="" coords="221,213,413,268"/>
+<area shape="poly" id="edge4_Node000001_Node000004" title=" " alt="" coords="383,72,362,90,345,110,332,135,325,162,319,212,314,212,319,161,327,133,340,108,358,86,380,68"/>
+<area shape="rect" id="Node000005" href="$solve_8cpp.html" title="file is responsible for solving quadratic equation with in_out.cpp file information" alt="" coords="355,109,546,165"/>
+<area shape="poly" id="edge5_Node000001_Node000005" title=" " alt="" coords="453,77,453,108,448,108,448,77"/>
+<area shape="rect" id="Node000006" href="$tester_8cpp.html" title="file is responsible for running unit tests" alt="" coords="571,109,762,165"/>
+<area shape="poly" id="edge6_Node000001_Node000006" title=" " alt="" coords="523,66,609,106,607,111,521,70"/>
+<area shape="rect" id="Node000007" href="$utilities_8cpp.html" title="file is responsible for provision additional functions for the another files" alt="" coords="787,109,978,165"/>
+<area shape="poly" id="edge7_Node000001_Node000007" title=" " alt="" coords="563,57,775,106,787,109,786,114,774,112,562,62"/>
+<area shape="rect" id="Node000003" href="$in__out_8cpp.html" title="file is responsible for input and output information required for solving any quadratic equation" alt="" coords="5,213,197,268"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="153,179,125,214,121,210,149,175"/>
+<area shape="poly" id="edge3_Node000002_Node000004" title=" " alt="" coords="232,172,282,210,279,214,229,177"/>
+</map>

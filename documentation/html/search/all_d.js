@@ -2,7 +2,7 @@ var searchData=
 [
   ['teal_0',['teal',['../struct_colors.html#ad9fdec991786f3df4846440b47f7ecfc',1,'Colors']]],
   ['teal_5fbold_1',['teal_bold',['../struct_colors.html#a4fd825e71ec828d7d4e9ed2343611d8a',1,'Colors']]],
-  ['test_2',['Test',['../struct_test.html',1,'']]],
+  ['test_2',['Test',['../struct_test.html',1,'Test'],['../index.html',1,'Test']]],
   ['tester_3',['Tester',['../tester_8cpp.html#a173e4a638f9a265711102103873fc25b',1,'Tester():&#160;tester.cpp'],['../tester_8h.html#a173e4a638f9a265711102103873fc25b',1,'Tester():&#160;tester.cpp']]],
   ['tester_2ecpp_4',['tester.cpp',['../tester_8cpp.html',1,'']]],
   ['tester_2eh_5',['tester.h',['../tester_8h.html',1,'']]],

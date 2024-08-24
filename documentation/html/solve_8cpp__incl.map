@@ -1,0 +1,15 @@
+<map id="/Users/anatolij/Documents/GitHub/SquareSolver/source/solve.cpp" name="/Users/anatolij/Documents/GitHub/SquareSolver/source/solve.cpp">
+<area shape="rect" id="Node000001" title="file is responsible for solving quadratic equation with in_out.cpp file information" alt="" coords="160,5,351,61"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="5,109,66,135"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="187,64,81,105,79,100,186,59"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="89,109,158,135"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="216,64,156,103,153,98,213,59"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="182,109,244,135"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="245,62,228,96,223,94,240,60"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="267,109,332,135"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="272,60,289,94,284,96,267,62"/>
+<area shape="rect" id="Node000006" href="$solve_8h.html" title="file that contains functions and enumerations required for solving quadratic equations" alt="" coords="355,109,476,135"/>
+<area shape="poly" id="edge5_Node000001_Node000006" title=" " alt="" coords="307,59,381,99,379,104,304,64"/>
+<area shape="rect" id="Node000007" href="$utilities_8h.html" title="file contains additional functions, structures and enumerations for another files" alt="" coords="500,109,630,135"/>
+<area shape="poly" id="edge6_Node000001_Node000007" title=" " alt="" coords="352,59,507,102,506,107,351,64"/>
+</map>

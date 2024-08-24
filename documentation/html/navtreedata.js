@@ -25,6 +25,7 @@
 var NAVTREE =
 [
   [ "SolveSquare", "index.html", [
+    [ "Test", "index.html", null ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],
       [ "Class Index", "classes.html", null ],

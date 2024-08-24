@@ -10,7 +10,7 @@
  * \var const double SS_MIN_VAL
  * \brief a constant containing a value with which variables of type double are compared to avoid errors due to the corresponding type
  */
-const double eps = 1e-6;
+const double Eps = 1e-6;
 
 /**
  * \struct Colors
