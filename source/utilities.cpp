@@ -27,3 +27,10 @@ void ClearBuffer() {
 int NearZero(double n) {
     return fabs(n) < Eps;
 }
+
+Assertion Assert(int condition) {
+    if (!condition) {
+
+    }
+    return CORRECT_ASSERT;
+}

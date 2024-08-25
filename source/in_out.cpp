@@ -83,11 +83,11 @@ Errors PrintAnswer(Solvers* solutions) {
     return NO_ERROR;
 }
 
-Errors Insert(double* coeff, int cnt) {
+Errors Insert(double* coeff, size_t cnt) {
 
     assert(coeff);
 
-    printf("%s# Enter coefficient №%d: %s", colors.blue_bold, cnt, colors.end);
+    printf("%s# Enter coefficient №%zu: %s", colors.blue_bold, cnt, colors.end);
 
     int k = 0;
     while (scanf("%lg", coeff) != 1 || getchar() != '\n') {
@@ -96,7 +96,7 @@ Errors Insert(double* coeff, int cnt) {
         if(k > 2) {return WRONG_READING;}
 
         printf("%s%s%s\n", colors.red, "# Error coefficient data type", colors.end);
-        printf("%s# Enter coefficient №%d with right data type: %s", colors.yellow, cnt, colors.end);
+        printf("%s# Enter coefficient №%zu with right data type: %s", colors.yellow, cnt, colors.end);
 
     }
     return NO_ERROR;

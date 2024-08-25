@@ -64,6 +64,11 @@ typedef enum {
     UNDEFINED_NUMBER_ROOTS  /**< the cause of the program error is not determined */
 } Errors;
 
+typedef enum {
+    FAILED_ASSERT,
+    CORRECT_ASSERT
+} Assertion;
+
 /**
  * \fn void ClearBuffer()
  * \brief a function waiting for a new line or end of file when entering quadratic equation coefficient values ​​with the wrong data type

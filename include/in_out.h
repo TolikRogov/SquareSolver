@@ -31,6 +31,6 @@ Errors PrintAnswer(Solvers* solutions);
  * \param cnt 		    - a number of next input coefficient
  * \return input outcome - without or with error
  */
-Errors Insert(double *coeff, int cnt);
+Errors Insert(double *coeff, size_t cnt);
 
 #endif // IN_OUT_INCLUDE
