@@ -36,8 +36,8 @@ int main(int argc, char* argv[]) {
             return 0;
         }
         else if (!strcmp(argv[1], "--help")) {
-            printf("%s%s%s\n", colors.blue, "Enter example: ./ss "
-                   "(--test or --normal)", colors.end);
+            printf("%s%s%s\n", colors.blue, "Enter one of acceptable mod to run the program: "
+                   "(--test, --normal or --dock)", colors.end);
             return 0;
         }
     }
