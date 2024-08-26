@@ -6,6 +6,10 @@
 #ifndef UTILITIES_INCLUDE
 #define UTILITIES_INCLUDE
 
+/**
+ * \def ASSERT(condition)
+ * \brief a macros for custom assert
+ */
 #define ASSERT(condition) ({                                     \
     Assert(condition, __FILE__, __LINE__, __PRETTY_FUNCTION__); \
 })
@@ -68,11 +72,24 @@ typedef enum {
     UNDEFINED_NUMBER_ROOTS  /**< the cause of the program error is not determined */
 } Errors;
 
+/**
+ * \enum Assertion
+ * \brief an enumeration containing variables indicating assertion status
+ */
 typedef enum {
-    FAILED_ASSERT,
-    CORRECT_ASSERT
+    FAILED_ASSERT,          /**< assert is failed */
+    CORRECT_ASSERT          /**< assert is correct */
 } Assertion;
 
+/**
+ * \fn Assertion Assert(int condition, const char file_name[], int line, const char func_name[])
+ * \brief a function printing an error of failed asserts
+ * \param int condition - status of input condition: 1 if true, 0 if false
+ * \param const char file_name[] - name of file where this function was called
+ * \param int line - number of line where this function was called
+ * \param const char func_name[] - name of function where this function was called
+ * \return status of assert
+ */
 Assertion Assert(int condition, const char file_name[], int line, const char func_name[]);
 
 /**
@@ -93,7 +110,7 @@ int NearZero(double n);
 /**
  * \fn const char* ErrorsMessenger(Errors error)
  * \brief converts an error of type Errors to a string
- * \param error - a value of error of type Errors
+ * \param Errors error - a value of error of type Errors
  * \return a string indicating the error value
  */
 const char* ErrorsMessenger(Errors error);

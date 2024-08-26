@@ -105,6 +105,7 @@ Functions</h2></td></tr>
 <tr class="memdesc:aafdadb4e22e6706240da0ba71e870218"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function that compares the values ​​of double variables with a very small value to determine whether the variable's value is close to zero, taking into account the double error  <br /></td></tr>
 <tr class="separator:aafdadb4e22e6706240da0ba71e870218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a27cff6e065e2d04bc67740d4e18d2638" id="r_a27cff6e065e2d04bc67740d4e18d2638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="utilities_8h.html#aabf14181c131617a13e412ae4e7acec9">Assertion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27cff6e065e2d04bc67740d4e18d2638">Assert</a> (int condition, const char file_name[], int line, const char func_name[])</td></tr>
+<tr class="memdesc:a27cff6e065e2d04bc67740d4e18d2638"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function printing an error of failed asserts  <br /></td></tr>
 <tr class="separator:a27cff6e065e2d04bc67740d4e18d2638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -138,6 +139,18 @@ Functions</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>a function printing an error of failed asserts </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>condition - status of input condition: 1 if true, 0 if false </td></tr>
+    <tr><td class="paramname">const</td><td>char file_name[] - name of file where this function was called </td></tr>
+    <tr><td class="paramname">int</td><td>line - number of line where this function was called </td></tr>
+    <tr><td class="paramname">const</td><td>char func_name[] - name of function where this function was called </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status of assert </dd></dl>
 
 </div>
 </div>
@@ -192,7 +205,7 @@ Here is the caller graph for this function:</div>
 <p>converts an error of type Errors to a string </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">error</td><td>- a value of error of type Errors </td></tr>
+    <tr><td class="paramname">Errors</td><td>error - a value of error of type Errors </td></tr>
   </table>
   </dd>
 </dl>

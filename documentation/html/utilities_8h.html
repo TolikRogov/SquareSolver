@@ -106,6 +106,7 @@ Classes</h2></td></tr>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="define-members" name="define-members"></a>
 Macros</h2></td></tr>
 <tr class="memitem:ac22830a985e1daed0c9eadba8c6f606e" id="r_ac22830a985e1daed0c9eadba8c6f606e"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ac22830a985e1daed0c9eadba8c6f606e">ASSERT</a>(condition)</td></tr>
+<tr class="memdesc:ac22830a985e1daed0c9eadba8c6f606e"><td class="mdescLeft">&#160;</td><td class="mdescRight">a macros for custom assert  <br /></td></tr>
 <tr class="separator:ac22830a985e1daed0c9eadba8c6f606e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
@@ -119,11 +120,13 @@ Enumerations</h2></td></tr>
 <tr class="memitem:aabf14181c131617a13e412ae4e7acec9" id="r_aabf14181c131617a13e412ae4e7acec9"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aabf14181c131617a13e412ae4e7acec9">Assertion</a> { <a class="el" href="#aabf14181c131617a13e412ae4e7acec9a6235fc52afa851aa14911960f0c7fb98">FAILED_ASSERT</a>
 , <a class="el" href="#aabf14181c131617a13e412ae4e7acec9a156538bf37d347615de2b999bc221b31">CORRECT_ASSERT</a>
  }</td></tr>
+<tr class="memdesc:aabf14181c131617a13e412ae4e7acec9"><td class="mdescLeft">&#160;</td><td class="mdescRight">an enumeration containing variables indicating assertion status  <a href="#aabf14181c131617a13e412ae4e7acec9">More...</a><br /></td></tr>
 <tr class="separator:aabf14181c131617a13e412ae4e7acec9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="func-members" name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a27cff6e065e2d04bc67740d4e18d2638" id="r_a27cff6e065e2d04bc67740d4e18d2638"><td class="memItemLeft" align="right" valign="top"><a class="el" href="#aabf14181c131617a13e412ae4e7acec9">Assertion</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a27cff6e065e2d04bc67740d4e18d2638">Assert</a> (int condition, const char file_name[], int line, const char func_name[])</td></tr>
+<tr class="memdesc:a27cff6e065e2d04bc67740d4e18d2638"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function printing an error of failed asserts  <br /></td></tr>
 <tr class="separator:a27cff6e065e2d04bc67740d4e18d2638"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af28fe6832f4dd3f13033e5c666525f07" id="r_af28fe6832f4dd3f13033e5c666525f07"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#af28fe6832f4dd3f13033e5c666525f07">ClearBuffer</a> ()</td></tr>
 <tr class="memdesc:af28fe6832f4dd3f13033e5c666525f07"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function waiting for a new line or end of file when entering quadratic equation coefficient values ​​with the wrong data type  <br /></td></tr>
@@ -164,6 +167,8 @@ Variables</h2></td></tr>
 <div class="line">    Assert(condition, __FILE__, __LINE__, __PRETTY_FUNCTION__); \</div>
 <div class="line">})</div>
 </div><!-- fragment -->
+<p>a macros for custom assert </p>
+
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
@@ -178,9 +183,13 @@ Variables</h2></td></tr>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>an enumeration containing variables indicating assertion status </p>
 <table class="fieldtable">
-<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aabf14181c131617a13e412ae4e7acec9a6235fc52afa851aa14911960f0c7fb98" name="aabf14181c131617a13e412ae4e7acec9a6235fc52afa851aa14911960f0c7fb98"></a>FAILED_ASSERT&#160;</td><td class="fielddoc"></td></tr>
-<tr><td class="fieldname"><a id="aabf14181c131617a13e412ae4e7acec9a156538bf37d347615de2b999bc221b31" name="aabf14181c131617a13e412ae4e7acec9a156538bf37d347615de2b999bc221b31"></a>CORRECT_ASSERT&#160;</td><td class="fielddoc"></td></tr>
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aabf14181c131617a13e412ae4e7acec9a6235fc52afa851aa14911960f0c7fb98" name="aabf14181c131617a13e412ae4e7acec9a6235fc52afa851aa14911960f0c7fb98"></a>FAILED_ASSERT&#160;</td><td class="fielddoc"><p>assert is failed </p>
+</td></tr>
+<tr><td class="fieldname"><a id="aabf14181c131617a13e412ae4e7acec9a156538bf37d347615de2b999bc221b31" name="aabf14181c131617a13e412ae4e7acec9a156538bf37d347615de2b999bc221b31"></a>CORRECT_ASSERT&#160;</td><td class="fielddoc"><p>assert is correct </p>
+</td></tr>
 </table>
 
 </div>
@@ -239,6 +248,18 @@ Variables</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
+<p>a function printing an error of failed asserts </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">int</td><td>condition - status of input condition: 1 if true, 0 if false </td></tr>
+    <tr><td class="paramname">const</td><td>char file_name[] - name of file where this function was called </td></tr>
+    <tr><td class="paramname">int</td><td>line - number of line where this function was called </td></tr>
+    <tr><td class="paramname">const</td><td>char func_name[] - name of function where this function was called </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>status of assert </dd></dl>
+
 </div>
 </div>
 <a id="af28fe6832f4dd3f13033e5c666525f07" name="af28fe6832f4dd3f13033e5c666525f07"></a>
@@ -292,7 +313,7 @@ Here is the caller graph for this function:</div>
 <p>converts an error of type Errors to a string </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">error</td><td>- a value of error of type Errors </td></tr>
+    <tr><td class="paramname">Errors</td><td>error - a value of error of type Errors </td></tr>
   </table>
   </dd>
 </dl>
