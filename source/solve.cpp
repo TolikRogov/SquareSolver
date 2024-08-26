@@ -26,8 +26,8 @@ static double GetDiscriminant(Coeff* coeff);
 
 nRoots SolveLine(Coeff* coeff, Solvers* solutions) {
 
-    assert(solutions);
-    assert(coeff);
+    Assert((solutions != nullptr), __FILE__, __LINE__, __PRETTY_FUNCTION__);
+    Assert((coeff != nullptr), __FILE__, __LINE__, __PRETTY_FUNCTION__);
 
     if (NearZero(coeff->b)) {
         return (NearZero(coeff->c)) ? INF_ROOTS : NO_ROOTS;
@@ -40,13 +40,14 @@ nRoots SolveLine(Coeff* coeff, Solvers* solutions) {
 }
 
 static double GetDiscriminant(Coeff* coeff) {
+    // assert
     return (coeff->b * coeff->b - 4 * coeff->a * coeff->c);
 }
 
 nRoots SolveSquare(Coeff* coeff, Solvers* solutions) {
 
-    assert(solutions);
-    assert(coeff);
+    Assert((solutions != nullptr), __FILE__, __LINE__, __PRETTY_FUNCTION__);
+    Assert((coeff != nullptr), __FILE__, __LINE__, __PRETTY_FUNCTION__);
 
     double d = GetDiscriminant(coeff);
 
@@ -66,11 +67,11 @@ nRoots SolveSquare(Coeff* coeff, Solvers* solutions) {
 
 nRoots Solver(Coeff* coeff, Solvers* solutions) {
 
-    assert(isfinite(coeff->a));
-    assert(isfinite(coeff->b));
-    assert(isfinite(coeff->c));
-    assert(solutions);
-    assert(coeff);
+    Assert((isfinite(coeff->a)), __FILE__, __LINE__, __PRETTY_FUNCTION__);
+    Assert((isfinite(coeff->b)), __FILE__, __LINE__, __PRETTY_FUNCTION__);
+    Assert((isfinite(coeff->c)), __FILE__, __LINE__, __PRETTY_FUNCTION__);
+    Assert((solutions != nullptr), __FILE__, __LINE__, __PRETTY_FUNCTION__);
+    Assert((coeff != nullptr), __FILE__, __LINE__, __PRETTY_FUNCTION__);
 
     nRoots n = NO_ROOTS;
     if (NearZero(coeff->a)) {

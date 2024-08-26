@@ -69,6 +69,8 @@ typedef enum {
     CORRECT_ASSERT
 } Assertion;
 
+Assertion Assert(int condition, const char file_name[], int line, const char func_name[]);
+
 /**
  * \fn void ClearBuffer()
  * \brief a function waiting for a new line or end of file when entering quadratic equation coefficient values ​​with the wrong data type

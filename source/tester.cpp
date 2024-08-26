@@ -13,16 +13,16 @@
 void Tester(){
     struct Test list[] =
 //         n_test, a,     b,  c,   x1_right,  x2_right, n_roots_right
-       { {  1,     1,     0, -4,         -2,         2,        2 },
-         {  2,     0,     0,  0,        NAN,       NAN,       -1 },
-         {  3,     0,     0, -4,        NAN,       NAN,        0 },
-         {  4,     0,     4, -4,          1,       NAN,        1 },
-         {  5,     0,     1,  0,          0,       NAN,        1 },
-         {  6,     1,     0,  0,          0,       NAN,        1 },
-         {  7,     1,     1,  0,         -1,         0,        2 },
-         {  8,     1,     1, -2,         -2,         1,        2 },
-         {  9,  1e-3, -2e-3,  1,        NAN,       NAN,        0 },
-         { 10, -1e-3, -2e-3,  1, -32.638584, 30.638584,        2 } };
+       { {  1,     1,     0, -4,         -2,         2, TWO_ROOTS },
+         {  2,     0,     0,  0,        NAN,       NAN, INF_ROOTS },
+         {  3,     0,     0, -4,        NAN,       NAN, NO_ROOTS  },
+         {  4,     0,     4, -4,          1,       NAN, ONE_ROOT  },
+         {  5,     0,     1,  0,          0,       NAN, ONE_ROOT  },
+         {  6,     1,     0,  0,          0,       NAN, ONE_ROOT  },
+         {  7,     1,     1,  0,         -1,         0, TWO_ROOTS },
+         {  8,     1,     1, -2,         -2,         1, TWO_ROOTS },
+         {  9,  1e-3, -2e-3,  1,        NAN,       NAN, NO_ROOTS  },
+         { 10, -1e-3, -2e-3,  1, -32.638584, 30.638584, TWO_ROOTS } };
 
     for (size_t i = 0; i < (sizeof(list) / sizeof(list[0])); ++i) {
         Solvers solutions = RunTests(&list[i]);
@@ -70,8 +70,8 @@ Solvers RunTests(Test* controller) {
 
 const char* TestsMessenger(Tests test) {
     switch(test) {
-        case FAILED_TEST:  return "FAILED_TEST";
-        case CORRECT_TEST: return "CORRECT_TEST";
-        default:           return "UNDEFINED_ERROR";
+        case FAILED_TEST:  return "FAILED TEST";
+        case CORRECT_TEST: return "CORRECT TEST";
+        default:           return "UNDEFINED ERROR";
     }
 }
