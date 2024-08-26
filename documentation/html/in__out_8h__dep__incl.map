@@ -1,7 +1,7 @@
-<map id="/Users/anatolij/Documents/GitHub/SquareSolver/include/in_out.h" name="/Users/anatolij/Documents/GitHub/SquareSolver/include/in_out.h">
-<area shape="rect" id="Node000001" title="file contains functions for input and output coefficients of quadratic equations" alt="" coords="112,5,306,61"/>
-<area shape="rect" id="Node000002" href="$in__out_8cpp.html" title="file is responsible for input and output information required for solving any quadratic equation" alt="" coords="5,109,197,165"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,74,132,110,128,106,167,70"/>
-<area shape="rect" id="Node000003" href="$main_8cpp.html" title="main file of all program" alt="" coords="221,109,413,165"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,70,290,106,286,110,247,74"/>
+<map id="include/in_out.h" name="include/in_out.h">
+<area shape="rect" id="Node000001" title="file contains functions for input and output coefficients of quadratic equations" alt="" coords="83,5,196,31"/>
+<area shape="rect" id="Node000002" href="$in__out_8cpp.html" title="file is responsible for input and output information required for solving any quadratic equation" alt="" coords="5,79,130,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="119,44,82,80,78,77,115,40"/>
+<area shape="rect" id="Node000003" href="$main_8cpp.html" title="main file of all program" alt="" coords="154,79,272,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="164,40,202,77,199,80,161,44"/>
 </map>

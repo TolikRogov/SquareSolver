@@ -6,6 +6,10 @@
 #ifndef UTILITIES_INCLUDE
 #define UTILITIES_INCLUDE
 
+#define ASSERT(condition) ({                                     \
+    Assert(condition, __FILE__, __LINE__, __PRETTY_FUNCTION__); \
+})
+
 /**
  * \var const double SS_MIN_VAL
  * \brief a constant containing a value with which variables of type double are compared to avoid errors due to the corresponding type

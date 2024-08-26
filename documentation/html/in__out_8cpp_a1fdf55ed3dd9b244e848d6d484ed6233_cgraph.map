@@ -1,6 +1,6 @@
 <map id="Normal" name="Normal">
 <area shape="rect" id="Node000001" title="a function that runs SolveSquare with user&#39;s coefficients" alt="" coords="5,56,69,82"/>
-<area shape="rect" id="Node000002" href="$in__out_8cpp.html#a513843f0fc05028770e357e13f8fb395" title="accepts from the user the values ​​of the coefficients of a quadratic equation in the correct data ty..." alt="" coords="136,7,190,32"/>
+<area shape="rect" id="Node000002" href="$in__out_8cpp.html#afc78f70c3ec8394737c005e52265c5ed" title=" " alt="" coords="136,7,190,32"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="68,54,120,33,122,38,70,59"/>
 <area shape="rect" id="Node000004" href="$in__out_8cpp.html#a627e09d737ba3116e5a4ea59eaac08a6" title="outputs the solution to the quadratic equation of the Solver() function" alt="" coords="117,56,209,82"/>
 <area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="69,66,101,66,101,72,69,72"/>

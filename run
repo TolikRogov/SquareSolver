@@ -3,6 +3,12 @@
 make clean
 clear
 make
-echo -e "\n Enter the mod to run: '--normal' or '--test'"
+echo -e "\n Enter the mod to run: '--normal', '--test' or '--dock'"
 read mod
+if [ $mod = '--dock' ]
+then
+doxygen documentation/Doxyfile
+open documentation/html/index.html
+else
 ./ss $mod
+fi

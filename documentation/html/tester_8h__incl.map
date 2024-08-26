@@ -1,5 +1,5 @@
-<map id="/Users/anatolij/Documents/GitHub/SquareSolver/include/tester.h" name="/Users/anatolij/Documents/GitHub/SquareSolver/include/tester.h">
-<area shape="rect" id="Node000001" title="file contains functions and structures for running unit&#45;tests" alt="" coords="5,5,199,61"/>
-<area shape="rect" id="Node000002" href="$solve_8h.html" title="file that contains functions and enumerations required for solving quadratic equations" alt="" coords="70,109,134,135"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="105,61,105,93,99,93,99,61"/>
+<map id="include/tester.h" name="include/tester.h">
+<area shape="rect" id="Node000001" title="file contains functions and structures for running unit&#45;tests" alt="" coords="5,5,115,31"/>
+<area shape="rect" id="Node000002" href="$solve_8h.html" title="file that contains functions and enumerations required for solving quadratic equations" alt="" coords="28,79,92,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="63,31,63,63,57,63,57,31"/>
 </map>

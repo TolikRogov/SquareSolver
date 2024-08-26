@@ -42,8 +42,7 @@ int Normal() {
 
 Errors PrintAnswer(Solvers* solutions) {
 
-    //assert(solutions);
-    Assert((solutions != nullptr), __FILE__, __LINE__, __PRETTY_FUNCTION__);
+    ASSERT((solutions != nullptr));
 
     switch(solutions->num_roots) {
         case NO_ROOTS: {
@@ -85,7 +84,7 @@ Errors PrintAnswer(Solvers* solutions) {
 
 Errors Insert(double* coeff, size_t cnt) {
 
-    Assert((coeff != nullptr), __FILE__, __LINE__, __PRETTY_FUNCTION__);
+    ASSERT((coeff != nullptr));
 
     printf("%s# Enter coefficient №%zu: %s", colors.blue_bold, cnt, colors.end);
 

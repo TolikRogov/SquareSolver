@@ -1,7 +1,7 @@
-<map id="/Users/anatolij/Documents/GitHub/SquareSolver/include/tester.h" name="/Users/anatolij/Documents/GitHub/SquareSolver/include/tester.h">
-<area shape="rect" id="Node000001" title="file contains functions and structures for running unit&#45;tests" alt="" coords="112,5,306,61"/>
-<area shape="rect" id="Node000002" href="$main_8cpp.html" title="main file of all program" alt="" coords="5,109,197,165"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="171,74,132,110,128,106,167,70"/>
-<area shape="rect" id="Node000003" href="$tester_8cpp.html" title="file is responsible for running unit tests" alt="" coords="221,109,413,165"/>
-<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="251,70,290,106,286,110,247,74"/>
+<map id="include/tester.h" name="include/tester.h">
+<area shape="rect" id="Node000001" title="file contains functions and structures for running unit&#45;tests" alt="" coords="81,5,191,31"/>
+<area shape="rect" id="Node000002" href="$main_8cpp.html" title="main file of all program" alt="" coords="5,79,123,105"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="115,44,78,80,74,77,111,40"/>
+<area shape="rect" id="Node000003" href="$tester_8cpp.html" title="file is responsible for running unit tests" alt="" coords="147,79,269,105"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="161,40,198,77,194,80,157,44"/>
 </map>

@@ -30,7 +30,8 @@ int NearZero(double n) {
 
 Assertion Assert(int condition, const char file_name[], int line, const char func_name[]) {
     if (!condition) {
-        printf("%s file: %s, line: %d, function: %s%s \n", colors.red, file_name, line, func_name, colors.end);
+        printf("%s --Assertion Fail-- file: %s, line: %d, function: %s%s \n",
+               colors.red, file_name, line, func_name, colors.end);
         return FAILED_ASSERT;
     }
     return CORRECT_ASSERT;
