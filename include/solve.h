@@ -37,10 +37,10 @@ struct Coeff {
 };
 
 /**
- * \struct Solvers
+ * \struct Solution
  * \brief a structure containing values of roots and their quantity
  */
-struct Solvers {
+struct Solution {
     double x1;          /**< first root of equation */
     double x2;          /**< second root of equation */
     nRoots num_roots;   /**< number of roots */
@@ -48,30 +48,30 @@ struct Solvers {
 };
 
 /**
- * \fn nRoots Solver(Coeff* coeff, Solvers* solutions)
+ * \fn nRoots Solver(Coeff* coeff, Solution* solutions)
  * \brief a function that triggers the solution of a linear or quadratic equation depending on the value of parameter a
  * \param Coeff* coeff       - pointer to structure of type Coeff
- * \param Solvers* solutions - pointer to structure of type Solvers
+ * \param Solution* solutions - pointer to structure of type Solvers
  * \return number of solutions to an equation of type nRoots
  */
-nRoots Solver(Coeff* coeff, Solvers* solutions);
+nRoots Solver(Coeff* coeff, Solution* solutions);
 
 /**
- * \fn nRoots SolveLine(Coeff* coeff, Solvers* solutions)
+ * \fn nRoots SolveLine(Coeff* coeff, Solution* solutions)
  * \brief a function that solutes a linear equation
  * \param Coeff* coeff       - pointer to structure of type Coeff
- * \param Solvers* solutions - pointer to structure of type Solvers
+ * \param Solution* solutions - pointer to structure of type Solvers
  * \return number of solutions to the linear equation of type nRoots
  */
-nRoots SolveLine(Coeff* coeff, Solvers* solutions);
+nRoots SolveLine(Coeff* coeff, Solution* solutions);
 
 /**
- * \fn nRoots SolveSquare(Coeff* coeff, Solvers* solutions)
+ * \fn nRoots SolveSquare(Coeff* coeff, Solution* solutions)
  * \brief a function that solutes a quadratic equation
  * \param Coeff* coeff       - pointer to structure of type Coeff
- * \param Solvers* solutions - pointer to structure of type Solvers
+ * \param Solution* solutions - pointer to structure of type Solvers
  * \returns number of solutions to the quadratic equation of type nRoots
  */
-nRoots SolveSquare(Coeff* coeff, Solvers* solutions);
+nRoots SolveSquare(Coeff* coeff, Solution* solutions);
 
 #endif // SOLVE_INCLUDE

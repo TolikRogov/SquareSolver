@@ -1,16 +1,16 @@
 <map id="Tester" name="Tester">
 <area shape="rect" id="Node000001" title="a function containing the massive of structures of type Test and run them using functions RunTests() ..." alt="" coords="5,48,63,73"/>
-<area shape="rect" id="Node000002" href="$tester_8cpp.html#a15367d5f6752dc0b53588d3f8f1b8df3" title="a function checking the operation of the algorithm for solving a quadratic equation" alt="" coords="131,22,208,48"/>
+<area shape="rect" id="Node000002" href="$tester_8cpp.html#a32e2d6815f0b1dd30fb93613bf9633c4" title="a function checking the operation of the algorithm for solving a quadratic equation" alt="" coords="131,22,208,48"/>
 <area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="62,53,115,43,116,48,63,58"/>
 <area shape="rect" id="Node000008" href="$tester_8cpp.html#a42c2309ea056eb9502185538608be221" title="converts an status of test of type Test to a string" alt="" coords="111,72,228,97"/>
 <area shape="poly" id="edge9_Node000001_Node000008" title=" " alt="" coords="63,63,96,69,95,74,62,68"/>
-<area shape="rect" id="Node000003" href="$solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par..." alt="" coords="276,22,334,48"/>
+<area shape="rect" id="Node000003" href="$solve_8cpp.html#a7817091df58a785b45f72c869a576605" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par..." alt="" coords="276,22,334,48"/>
 <area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="208,33,260,33,260,38,208,38"/>
 <area shape="rect" id="Node000004" href="$utilities_8cpp.html#aafdadb4e22e6706240da0ba71e870218" title="a function that compares the values ​​of double variables with a very small value to determine whethe..." alt="" coords="546,22,621,48"/>
 <area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="334,21,382,7,430,3,478,7,531,18,530,23,477,13,430,8,383,13,335,26"/>
-<area shape="rect" id="Node000005" href="$solve_8cpp.html#a279e7254693e11b493551bc784828792" title="a function that solutes a linear equation" alt="" coords="391,22,469,48"/>
+<area shape="rect" id="Node000005" href="$solve_8cpp.html#ac663d5f1f9bbbf50ce3383db6e5c860e" title="a function that solutes a linear equation" alt="" coords="391,22,469,48"/>
 <area shape="poly" id="edge4_Node000003_Node000005" title=" " alt="" coords="335,33,375,33,375,38,335,38"/>
-<area shape="rect" id="Node000006" href="$solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1" title="a function that solutes a quadratic equation" alt="" coords="382,72,478,97"/>
+<area shape="rect" id="Node000006" href="$solve_8cpp.html#a38fbd88a32afdd1ba300993da4bab588" title="a function that solutes a quadratic equation" alt="" coords="382,72,478,97"/>
 <area shape="poly" id="edge6_Node000003_Node000006" title=" " alt="" coords="336,44,382,63,380,68,334,49"/>
 <area shape="poly" id="edge5_Node000005_Node000004" title=" " alt="" coords="470,33,530,33,530,38,470,38"/>
 <area shape="poly" id="edge8_Node000006_Node000004" title=" " alt="" coords="472,69,531,49,532,54,473,74"/>

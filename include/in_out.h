@@ -17,12 +17,12 @@
 int Normal();
 
 /**
- * \fn Errors PrintAnswer(Solvers* solutions)
+ * \fn Errors PrintAnswer(Solution* solutions)
  * \brief outputs the solution to the quadratic equation of the Solver() function
- * \param Solvers* solutions - a pointer to structure of type Solvers
+ * \param Solution* solutions - a pointer to structure of type Solvers
  * \return output outcome - without or with error
  */
-Errors PrintAnswer(Solvers* solutions);
+Errors PrintAnswer(Solution* solutions);
 
 /**
  * \fn Insert(double* coeff, int cnt)

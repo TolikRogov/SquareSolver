@@ -13,10 +13,6 @@
 #include "../include/in_out.h"
 #include "../include/solve.h"
 
-/*  TODO:
-        1) readme
-*/
-
 /**
  * \fn int main(int argc, char* argv[])
  * \brief a function runs main functions of all program
@@ -36,8 +32,11 @@ int main(int argc, char* argv[]) {
             return 0;
         }
         else if (!strcmp(argv[1], "--help")) {
-            printf("%s%s%s\n", colors.blue, "Enter one of acceptable mod to run the program: "
-                   "(--test, --normal or --dock)", colors.end);
+            Helper();
+            return 0;
+        }
+        else if (!strcmp(argv[1], "--dock")) {
+            Docker();
             return 0;
         }
     }

@@ -24,16 +24,18 @@ static double GetDiscriminant(Coeff* coeff);
 #define MIN(x, y)           \
     ((x) > (y)) ? (y) : (x) \
 
-nRoots SolveLine(Coeff* coeff, Solvers* solutions) {
+nRoots SolveLine(Coeff* coeff, Solution* solutions) {
 
     ASSERT((solutions != nullptr));
     ASSERT((coeff != nullptr));
 
-    if (NearZero(coeff->b)) {
-        return (NearZero(coeff->c)) ? INF_ROOTS : NO_ROOTS;
+    double b = coeff->b, c = coeff->c;
+
+    if (NearZero(b)) {
+        return (NearZero(c)) ? INF_ROOTS : NO_ROOTS;
     }
     else {
-        solutions->x1 = (-coeff->c / coeff->b);
+        solutions->x1 = (-c / b);
         solutions->x2 = NAN;
         return ONE_ROOT;
     }
@@ -43,28 +45,29 @@ static double GetDiscriminant(Coeff* coeff) {
     return (coeff->b * coeff->b - 4 * coeff->a * coeff->c);
 }
 
-nRoots SolveSquare(Coeff* coeff, Solvers* solutions) {
+nRoots SolveSquare(Coeff* coeff, Solution* solutions) {
 
     ASSERT((solutions != nullptr));
     ASSERT((coeff != nullptr));
 
     double d = GetDiscriminant(coeff);
+    double a = coeff->a, b = coeff->b;
 
     if(NearZero(d)) {
-        solutions->x1 = ( -coeff->b / ( 2 * coeff->a ) );
+        solutions->x1 = ( -b / ( 2 * a ) );
         solutions->x2 = NAN;
         return ONE_ROOT;
     }
     else if(d > 0) {
         double q = sqrt(d);
-        solutions->x2 = MAX( ( ( -coeff->b + q ) / ( 2 * coeff->a ) ), ( ( -coeff->b - q ) / ( 2 * coeff->a ) ) );
-        solutions->x1 = MIN( ( ( -coeff->b + q ) / ( 2 * coeff->a ) ), ( ( -coeff->b - q ) / ( 2 * coeff->a ) ) );
+        solutions->x2 = MAX( ( ( -b + q ) / ( 2 * a ) ), ( ( -b - q ) / ( 2 * a ) ) );
+        solutions->x1 = MIN( ( ( -b + q ) / ( 2 * a ) ), ( ( -b - q ) / ( 2 * a ) ) );
         return TWO_ROOTS;
     }
     return NO_ROOTS;
 }
 
-nRoots Solver(Coeff* coeff, Solvers* solutions) {
+nRoots Solver(Coeff* coeff, Solution* solutions) {
 
     ASSERT((isfinite(coeff->a)));
     ASSERT((isfinite(coeff->b)));

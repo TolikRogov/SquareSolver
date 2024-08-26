@@ -15,31 +15,38 @@
 })
 
 /**
- * \var const double SS_MIN_VAL
+ * \var const double EPS
  * \brief a constant containing a value with which variables of type double are compared to avoid errors due to the corresponding type
  */
-const double Eps = 1e-6;
+const double EPS = 1e-6;
+
+
+/**
+ * \var const int COLOR_LENGTH
+ * \brief a constant containing length of escape-sequence for colors
+ */
+const int COLOR_LENGTH = 20;
 
 /**
  * \struct Colors
  * \brief a structure containing escape-subsequence for each color for display in terminal
  */
 struct Colors {
-    char red[20];           /**< escape-subsequence for red color */
-    char green[20];         /**< escape-subsequence for green color */
-    char blue[20];          /**< escape-subsequence for blue color */
-    char yellow[20];        /**< escape-subsequence for yellow color */
-    char pink[20];          /**< escape-subsequence for pink color */
-    char teal[20];          /**< escape-subsequence for teal color */
-    char white[20];         /**< escape-subsequence for white color */
-    char red_bold[20];      /**< escape-subsequence for red_bold color */
-    char green_bold[20];    /**< escape-subsequence for green_bold color */
-    char blue_bold[20];     /**< escape-subsequence for blue_bold color */
-    char yellow_bold[20];   /**< escape-subsequence for yellow_bold color */
-    char pink_bold[20];     /**< escape-subsequence for pink_bold color */
-    char teal_bold[20];     /**< escape-subsequence for teal_bold color */
-    char white_bold[20];    /**< escape-subsequence for white_bold color */
-    char end[20];           /**< escape-subsequence for default color */
+    char red[COLOR_LENGTH];           /**< escape-subsequence for red color */
+    char green[COLOR_LENGTH];         /**< escape-subsequence for green color */
+    char blue[COLOR_LENGTH];          /**< escape-subsequence for blue color */
+    char yellow[COLOR_LENGTH];        /**< escape-subsequence for yellow color */
+    char pink[COLOR_LENGTH];          /**< escape-subsequence for pink color */
+    char teal[COLOR_LENGTH];          /**< escape-subsequence for teal color */
+    char white[COLOR_LENGTH];         /**< escape-subsequence for white color */
+    char red_bold[COLOR_LENGTH];      /**< escape-subsequence for red_bold color */
+    char green_bold[COLOR_LENGTH];    /**< escape-subsequence for green_bold color */
+    char blue_bold[COLOR_LENGTH];     /**< escape-subsequence for blue_bold color */
+    char yellow_bold[COLOR_LENGTH];   /**< escape-subsequence for yellow_bold color */
+    char pink_bold[COLOR_LENGTH];     /**< escape-subsequence for pink_bold color */
+    char teal_bold[COLOR_LENGTH];     /**< escape-subsequence for teal_bold color */
+    char white_bold[COLOR_LENGTH];    /**< escape-subsequence for white_bold color */
+    char end[COLOR_LENGTH];           /**< escape-subsequence for default color */
 };
 
 /**
@@ -91,6 +98,18 @@ typedef enum {
  * \return status of assert
  */
 Assertion Assert(int condition, const char file_name[], int line, const char func_name[]);
+
+/**
+ * \fn void Docker()
+ * \brief a function creating html file for documentation and open it in browser
+ */
+void Docker();
+
+/**
+ * \fn void Helper()
+ * \brief a function printing a message then flag --help input
+ */
+void Helper();
 
 /**
  * \fn void ClearBuffer()

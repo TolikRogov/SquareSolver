@@ -24,8 +24,12 @@ void Tester(){
          {  9,  1e-3, -2e-3,  1,        NAN,       NAN, NO_ROOTS  },
          { 10, -1e-3, -2e-3,  1, -32.638584, 30.638584, TWO_ROOTS } };
 
-    for (size_t i = 0; i < (sizeof(list) / sizeof(list[0])); ++i) {
-        Solvers solutions = RunTests(&list[i]);
+    size_t size = (sizeof(list) / sizeof(list[0]));
+    for (size_t i = 0; i < size; ++i) {
+
+        ASSERT((0 <= i && i < size));
+
+        Solution solutions = RunTests(&list[i]);
         switch(solutions.status) {
             case FAILED_TEST:{
 
@@ -54,15 +58,15 @@ void Tester(){
     }
 }
 
-Solvers RunTests(Test* controller) {
+Solution RunTests(Test* controller) {
     Coeff coeff = { controller->a, controller->b, controller->c };
-    Solvers solutions = {.status = CORRECT_TEST};
+    Solution solutions = {.status = CORRECT_TEST};
     nRoots n_roots = Solver(&coeff, &solutions);
 
     printf("%s%2d: ", colors.teal_bold, controller->n_test);
 
-    if (n_roots != controller->n_roots_right || fabs(solutions.x1 - controller->x1_right) > Eps ||
-        fabs(solutions.x2 - controller->x2_right) > Eps) {
+    if (n_roots != controller->n_roots_right || fabs(solutions.x1 - controller->x1_right) > EPS ||
+        fabs(solutions.x2 - controller->x2_right) > EPS) {
         solutions.status = FAILED_TEST;
     }
     return solutions;

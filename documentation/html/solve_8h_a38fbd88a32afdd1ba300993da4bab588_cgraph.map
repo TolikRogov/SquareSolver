@@ -1,0 +1,7 @@
+<map id="SolveSquare" name="SolveSquare">
+<area shape="rect" id="Node000001" title="a function that solutes a quadratic equation" alt="" coords="5,31,101,56"/>
+<area shape="rect" id="Node000002" href="$solve_8cpp.html#ac330ab8e5170adad03c8779c7dbda27b" title="a static function calculating discriminant for solving quadratic equation with none zero coefficient ..." alt="" coords="149,5,264,31"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="101,33,133,28,133,33,102,38"/>
+<area shape="rect" id="Node000003" href="$utilities_8cpp.html#aafdadb4e22e6706240da0ba71e870218" title="a function that compares the values ​​of double variables with a very small value to determine whethe..." alt="" coords="169,55,244,80"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="102,48,154,57,153,62,101,54"/>
+</map>

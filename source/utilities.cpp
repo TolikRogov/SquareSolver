@@ -19,13 +19,23 @@ const char* ErrorsMessenger(Errors error) {
     }
 }
 
+void Docker() {
+    system("doxygen documentation/Doxyfile");
+    system("open documentation/html/index.html");
+}
+
+void Helper() {
+    printf("%s%s%s\n", colors.blue, "Enter one of acceptable mod to run the program: "
+           "(--test, --normal or --dock)", colors.end);
+}
+
 void ClearBuffer() {
     int ch = 0;
     while ((ch = getchar()) != '\n' && ch != EOF) {}
 }
 
 int NearZero(double n) {
-    return fabs(n) < Eps;
+    return fabs(n) < EPS;
 }
 
 Assertion Assert(int condition, const char file_name[], int line, const char func_name[]) {

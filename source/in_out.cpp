@@ -24,12 +24,12 @@
 
 int Normal() {
 
-    Solvers solutions = {};
+    Solution solutions = {};
     Coeff coeff = {};
     double* list_coeff[] = {&coeff.a, &coeff.b, &coeff.c};
 
     for (size_t i = 0; i < (sizeof(list_coeff) / sizeof(list_coeff[0])); ++i) {
-        Errors error = Insert(list_coeff[i], i+1);
+        Errors error = Insert(list_coeff[i], i + 1);
         PRINT_ERROR_STRING(error);
     }
 
@@ -40,7 +40,7 @@ int Normal() {
     return 1;
 }
 
-Errors PrintAnswer(Solvers* solutions) {
+Errors PrintAnswer(Solution* solutions) {
 
     ASSERT((solutions != nullptr));
 
@@ -82,14 +82,14 @@ Errors PrintAnswer(Solvers* solutions) {
     return NO_ERROR;
 }
 
-Errors Insert(double* coeff, size_t cnt) {
+Errors Insert(double* coeff, size_t cnt) { //
 
     ASSERT((coeff != nullptr));
 
     printf("%s# Enter coefficient №%zu: %s", colors.blue_bold, cnt, colors.end);
 
     int k = 0;
-    while (scanf("%lg", coeff) != 1 || getchar() != '\n') {
+    while (scanf("%lg", coeff) != 1 || getchar() != '\n') { //EOF
         ClearBuffer();
         ++k;
         if(k > 2) {return WRONG_READING;}

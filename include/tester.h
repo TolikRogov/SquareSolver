@@ -29,12 +29,12 @@ struct Test {
 void Tester();
 
 /**
- * \fn Solvers RunTests(Test* controller)
+ * \fn Solution RunTests(Test* controller)
  * \brief a function checking the operation of the algorithm for solving a quadratic equation
  * \param Test* controller - a pointer to a structure of type Test
  * \return status of the next running test of type Test
  */
-Solvers RunTests(Test* controller);
+Solution RunTests(Test* controller);
 
 /**
  * \fn const char* TestsMessenger(Tests test)

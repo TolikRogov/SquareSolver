@@ -112,9 +112,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a1fdf55ed3dd9b244e848d6d484ed6233" id="r_a1fdf55ed3dd9b244e848d6d484ed6233"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1fdf55ed3dd9b244e848d6d484ed6233">Normal</a> ()</td></tr>
 <tr class="memdesc:a1fdf55ed3dd9b244e848d6d484ed6233"><td class="mdescLeft">&#160;</td><td class="mdescRight">a function that runs SolveSquare with user's coefficients  <br /></td></tr>
 <tr class="separator:a1fdf55ed3dd9b244e848d6d484ed6233"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a627e09d737ba3116e5a4ea59eaac08a6" id="r_a627e09d737ba3116e5a4ea59eaac08a6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b">Errors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a627e09d737ba3116e5a4ea59eaac08a6">PrintAnswer</a> (<a class="el" href="struct_solvers.html">Solvers</a> *solutions)</td></tr>
-<tr class="memdesc:a627e09d737ba3116e5a4ea59eaac08a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">outputs the solution to the quadratic equation of the <a class="el" href="solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par...">Solver()</a> function  <br /></td></tr>
-<tr class="separator:a627e09d737ba3116e5a4ea59eaac08a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adad54cf27c2291eb7893b54319b2296b" id="r_adad54cf27c2291eb7893b54319b2296b"><td class="memItemLeft" align="right" valign="top"><a class="el" href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b">Errors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#adad54cf27c2291eb7893b54319b2296b">PrintAnswer</a> (<a class="el" href="struct_solution.html">Solution</a> *solutions)</td></tr>
+<tr class="memdesc:adad54cf27c2291eb7893b54319b2296b"><td class="mdescLeft">&#160;</td><td class="mdescRight">outputs the solution to the quadratic equation of the <a class="el" href="solve_8cpp.html#a7817091df58a785b45f72c869a576605" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par...">Solver()</a> function  <br /></td></tr>
+<tr class="separator:adad54cf27c2291eb7893b54319b2296b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afc78f70c3ec8394737c005e52265c5ed" id="r_afc78f70c3ec8394737c005e52265c5ed"><td class="memItemLeft" align="right" valign="top"><a class="el" href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b">Errors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afc78f70c3ec8394737c005e52265c5ed">Insert</a> (double *coeff, size_t cnt)</td></tr>
 <tr class="separator:afc78f70c3ec8394737c005e52265c5ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -137,14 +137,14 @@ Functions</h2></td></tr>
 </div><div class="memdoc">
 <b>Value:</b><div class="fragment"><div class="line">    ({                                          \</div>
 <div class="line">    if (err != <a class="code hl_enumvalue" href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76babf350750d0d4fabd8954c0f1e9bbae94">NO_ERROR</a>) {                                                \</div>
-<div class="line">        printf(<span class="stringliteral">&quot;%s%s%s\n&quot;</span>, <a class="code hl_variable" href="utilities_8h.html#a01c23a36a248bc92c879b70ce6bc4ad8">colors</a>.<a class="code hl_variable" href="struct_colors.html#a08e8a177ccd6ed76c42db132120c2c8d">red</a>, <a class="code hl_function" href="utilities_8cpp.html#a1526e857ca945460563beedad7b394cc">ErrorsMessenger</a>(err), <a class="code hl_variable" href="utilities_8h.html#a01c23a36a248bc92c879b70ce6bc4ad8">colors</a>.<a class="code hl_variable" href="struct_colors.html#a5de0c8b4371798223d5c03a57cc53571">end</a>); \</div>
+<div class="line">        printf(<span class="stringliteral">&quot;%s%s%s\n&quot;</span>, <a class="code hl_variable" href="utilities_8h.html#a01c23a36a248bc92c879b70ce6bc4ad8">colors</a>.<a class="code hl_variable" href="struct_colors.html#adc99404b7b98ff717a3215d331bf2d1c">red</a>, <a class="code hl_function" href="utilities_8cpp.html#a1526e857ca945460563beedad7b394cc">ErrorsMessenger</a>(err), <a class="code hl_variable" href="utilities_8h.html#a01c23a36a248bc92c879b70ce6bc4ad8">colors</a>.<a class="code hl_variable" href="struct_colors.html#a9a78232cc273d8e6b649be498841d01b">end</a>); \</div>
 <div class="line">        <span class="keywordflow">return</span> 0;                                                         \</div>
 <div class="line">    }})</div>
-<div class="ttc" id="astruct_colors_html_a08e8a177ccd6ed76c42db132120c2c8d"><div class="ttname"><a href="struct_colors.html#a08e8a177ccd6ed76c42db132120c2c8d">Colors::red</a></div><div class="ttdeci">char red[20]</div><div class="ttdoc">escape-subsequence for red color</div><div class="ttdef"><b>Definition</b> utilities.h:28</div></div>
-<div class="ttc" id="astruct_colors_html_a5de0c8b4371798223d5c03a57cc53571"><div class="ttname"><a href="struct_colors.html#a5de0c8b4371798223d5c03a57cc53571">Colors::end</a></div><div class="ttdeci">char end[20]</div><div class="ttdoc">escape-subsequence for default color</div><div class="ttdef"><b>Definition</b> utilities.h:42</div></div>
+<div class="ttc" id="astruct_colors_html_a9a78232cc273d8e6b649be498841d01b"><div class="ttname"><a href="struct_colors.html#a9a78232cc273d8e6b649be498841d01b">Colors::end</a></div><div class="ttdeci">char end[COLOR_LENGTH]</div><div class="ttdoc">escape-subsequence for default color</div><div class="ttdef"><b>Definition</b> utilities.h:49</div></div>
+<div class="ttc" id="astruct_colors_html_adc99404b7b98ff717a3215d331bf2d1c"><div class="ttname"><a href="struct_colors.html#adc99404b7b98ff717a3215d331bf2d1c">Colors::red</a></div><div class="ttdeci">char red[COLOR_LENGTH]</div><div class="ttdoc">escape-subsequence for red color</div><div class="ttdef"><b>Definition</b> utilities.h:35</div></div>
 <div class="ttc" id="autilities_8cpp_html_a1526e857ca945460563beedad7b394cc"><div class="ttname"><a href="utilities_8cpp.html#a1526e857ca945460563beedad7b394cc">ErrorsMessenger</a></div><div class="ttdeci">const char * ErrorsMessenger(Errors error)</div><div class="ttdoc">converts an error of type Errors to a string</div><div class="ttdef"><b>Definition</b> utilities.cpp:13</div></div>
-<div class="ttc" id="autilities_8h_html_a01c23a36a248bc92c879b70ce6bc4ad8"><div class="ttname"><a href="utilities_8h.html#a01c23a36a248bc92c879b70ce6bc4ad8">colors</a></div><div class="ttdeci">const Colors colors</div><div class="ttdoc">initialization the constant structure of type Colors</div><div class="ttdef"><b>Definition</b> utilities.h:49</div></div>
-<div class="ttc" id="autilities_8h_html_a8fb872c72e116bbd3eba31f48d78e76babf350750d0d4fabd8954c0f1e9bbae94"><div class="ttname"><a href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76babf350750d0d4fabd8954c0f1e9bbae94">NO_ERROR</a></div><div class="ttdeci">@ NO_ERROR</div><div class="ttdoc">no error</div><div class="ttdef"><b>Definition</b> utilities.h:70</div></div>
+<div class="ttc" id="autilities_8h_html_a01c23a36a248bc92c879b70ce6bc4ad8"><div class="ttname"><a href="utilities_8h.html#a01c23a36a248bc92c879b70ce6bc4ad8">colors</a></div><div class="ttdeci">const Colors colors</div><div class="ttdoc">initialization the constant structure of type Colors</div><div class="ttdef"><b>Definition</b> utilities.h:56</div></div>
+<div class="ttc" id="autilities_8h_html_a8fb872c72e116bbd3eba31f48d78e76babf350750d0d4fabd8954c0f1e9bbae94"><div class="ttname"><a href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76babf350750d0d4fabd8954c0f1e9bbae94">NO_ERROR</a></div><div class="ttdeci">@ NO_ERROR</div><div class="ttdoc">no error</div><div class="ttdef"><b>Definition</b> utilities.h:81</div></div>
 </div><!-- fragment -->
 <p>a macros prints error message to console if there is error </p>
 
@@ -219,17 +219,17 @@ Here is the call graph for this function:</div>
 <area shape="rect" title="a function that runs SolveSquare with user&#39;s coefficients" alt="" coords="5,56,69,82"/>
 <area shape="rect" href="in__out_8cpp.html#afc78f70c3ec8394737c005e52265c5ed" title=" " alt="" coords="136,7,190,32"/>
 <area shape="poly" title=" " alt="" coords="68,54,120,33,122,38,70,59"/>
-<area shape="rect" href="in__out_8cpp.html#a627e09d737ba3116e5a4ea59eaac08a6" title="outputs the solution to the quadratic equation of the Solver() function" alt="" coords="117,56,209,82"/>
+<area shape="rect" href="in__out_8cpp.html#adad54cf27c2291eb7893b54319b2296b" title="outputs the solution to the quadratic equation of the Solver() function" alt="" coords="117,56,209,82"/>
 <area shape="poly" title=" " alt="" coords="69,66,101,66,101,72,69,72"/>
-<area shape="rect" href="solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par..." alt="" coords="134,105,192,131"/>
+<area shape="rect" href="solve_8cpp.html#a7817091df58a785b45f72c869a576605" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par..." alt="" coords="134,105,192,131"/>
 <area shape="poly" title=" " alt="" coords="70,79,120,99,118,104,68,84"/>
 <area shape="rect" href="utilities_8cpp.html#af28fe6832f4dd3f13033e5c666525f07" title="a function waiting for a new line or end of file when entering quadratic equation coefficient values ..." alt="" coords="261,5,348,31"/>
 <area shape="poly" title=" " alt="" coords="190,17,246,16,246,21,190,22"/>
 <area shape="rect" href="utilities_8cpp.html#aafdadb4e22e6706240da0ba71e870218" title="a function that compares the values ​​of double variables with a very small value to determine whethe..." alt="" coords="420,107,496,132"/>
 <area shape="poly" title=" " alt="" coords="192,106,257,92,305,88,353,92,406,102,405,107,352,97,305,93,257,97,193,111"/>
-<area shape="rect" href="solve_8cpp.html#a279e7254693e11b493551bc784828792" title="a function that solutes a linear equation" alt="" coords="266,107,344,132"/>
+<area shape="rect" href="solve_8cpp.html#ac663d5f1f9bbbf50ce3383db6e5c860e" title="a function that solutes a linear equation" alt="" coords="266,107,344,132"/>
 <area shape="poly" title=" " alt="" coords="193,116,250,116,250,122,193,121"/>
-<area shape="rect" href="solve_8cpp.html#aae022c6c61a668fbb2774df6f709f6b1" title="a function that solutes a quadratic equation" alt="" coords="257,156,352,182"/>
+<area shape="rect" href="solve_8cpp.html#a38fbd88a32afdd1ba300993da4bab588" title="a function that solutes a quadratic equation" alt="" coords="257,156,352,182"/>
 <area shape="poly" title=" " alt="" coords="194,126,253,148,251,153,192,131"/>
 <area shape="poly" title=" " alt="" coords="344,117,405,117,405,122,344,122"/>
 <area shape="poly" title=" " alt="" coords="346,153,405,134,407,139,348,158"/>
@@ -250,8 +250,8 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a627e09d737ba3116e5a4ea59eaac08a6" name="a627e09d737ba3116e5a4ea59eaac08a6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a627e09d737ba3116e5a4ea59eaac08a6">&#9670;&#160;</a></span>PrintAnswer()</h2>
+<a id="adad54cf27c2291eb7893b54319b2296b" name="adad54cf27c2291eb7893b54319b2296b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adad54cf27c2291eb7893b54319b2296b">&#9670;&#160;</a></span>PrintAnswer()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,16 +259,16 @@ Here is the caller graph for this function:</div>
         <tr>
           <td class="memname"><a class="el" href="utilities_8h.html#a8fb872c72e116bbd3eba31f48d78e76b">Errors</a> PrintAnswer </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="struct_solvers.html">Solvers</a> *</td>          <td class="paramname"><span class="paramname"><em>solutions</em></span></td><td>)</td>
+          <td class="paramtype"><a class="el" href="struct_solution.html">Solution</a> *</td>          <td class="paramname"><span class="paramname"><em>solutions</em></span></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
 
-<p>outputs the solution to the quadratic equation of the <a class="el" href="solve_8cpp.html#a360fd5c9c1e331df9e973db99d71eac5" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par...">Solver()</a> function </p>
+<p>outputs the solution to the quadratic equation of the <a class="el" href="solve_8cpp.html#a7817091df58a785b45f72c869a576605" title="a function that triggers the solution of a linear or quadratic equation depending on the value of par...">Solver()</a> function </p>
 <dl class="params"><dt>Parameters</dt><dd>
   <table class="params">
-    <tr><td class="paramname">Solvers*</td><td>solutions - a pointer to structure of type <a class="el" href="struct_solvers.html" title="a structure containing values of roots and their quantity">Solvers</a> </td></tr>
+    <tr><td class="paramname">Solution*</td><td>solutions - a pointer to structure of type Solvers </td></tr>
   </table>
   </dd>
 </dl>
@@ -276,8 +276,8 @@ Here is the caller graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="in__out_8cpp_a627e09d737ba3116e5a4ea59eaac08a6_icgraph.png" border="0" usemap="#ain__out_8cpp_a627e09d737ba3116e5a4ea59eaac08a6_icgraph" alt=""/></div>
-<map name="ain__out_8cpp_a627e09d737ba3116e5a4ea59eaac08a6_icgraph" id="ain__out_8cpp_a627e09d737ba3116e5a4ea59eaac08a6_icgraph">
+<div class="center"><img src="in__out_8cpp_adad54cf27c2291eb7893b54319b2296b_icgraph.png" border="0" usemap="#ain__out_8cpp_adad54cf27c2291eb7893b54319b2296b_icgraph" alt=""/></div>
+<map name="ain__out_8cpp_adad54cf27c2291eb7893b54319b2296b_icgraph" id="ain__out_8cpp_adad54cf27c2291eb7893b54319b2296b_icgraph">
 <area shape="rect" title="outputs the solution to the quadratic equation of the Solver() function" alt="" coords="214,5,306,31"/>
 <area shape="rect" href="in__out_8cpp.html#a1fdf55ed3dd9b244e848d6d484ed6233" title="a function that runs SolveSquare with user&#39;s coefficients" alt="" coords="103,5,166,31"/>
 <area shape="poly" title=" " alt="" coords="199,21,167,21,167,16,199,16"/>
