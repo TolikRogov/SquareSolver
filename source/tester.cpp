@@ -7,8 +7,8 @@
 #include <math.h>
 #include <ctype.h>
 
-#include "../include/tester.h"
-#include "../include/utilities.h"
+#include "../include/tester.hpp"
+#include "../include/utilities.hpp"
 
 void Tester(){
     struct Test list[] =

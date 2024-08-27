@@ -3,6 +3,6 @@
 make clean
 clear
 make
-echo -e "\n Enter the mod to run: '--normal', '--test' or '--dock'"
+echo -e "\n Enter the mod to run: '--norm', '--test' or '--dock'"
 read mod
 ./ss $mod

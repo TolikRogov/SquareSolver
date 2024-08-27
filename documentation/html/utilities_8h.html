@@ -99,6 +99,8 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="nested-classes" name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_flags.html">Flags</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_colors.html">Colors</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">a structure containing escape-subsequence for each color for display in terminal  <a href="struct_colors.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -111,8 +113,6 @@ Macros</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="enum-members" name="enum-members"></a>
 Enumerations</h2></td></tr>
-<tr class="memitem:aa705cf7e79a21c2352b00ffe20cd295f" id="r_aa705cf7e79a21c2352b00ffe20cd295f"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aa705cf7e79a21c2352b00ffe20cd295f">Flags</a> </td></tr>
-<tr class="separator:aa705cf7e79a21c2352b00ffe20cd295f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fb872c72e116bbd3eba31f48d78e76b" id="r_a8fb872c72e116bbd3eba31f48d78e76b"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8fb872c72e116bbd3eba31f48d78e76b">Errors</a> { <a class="el" href="#a8fb872c72e116bbd3eba31f48d78e76babf350750d0d4fabd8954c0f1e9bbae94">NO_ERROR</a>
 , <a class="el" href="#a8fb872c72e116bbd3eba31f48d78e76ba14b1319da25660f11784293858ac7847">WRONG_READING</a>
 , <a class="el" href="#a8fb872c72e116bbd3eba31f48d78e76ba3ebcc769104b7c4590211b976d2a56eb">UNDEFINED_NUMBER_ROOTS</a>
@@ -151,9 +151,11 @@ Variables</h2></td></tr>
 <tr class="memitem:afe01386a82fedc016455a43c20280a97" id="r_afe01386a82fedc016455a43c20280a97"><td class="memItemLeft" align="right" valign="top">const double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#afe01386a82fedc016455a43c20280a97">EPS</a> = 1e-6</td></tr>
 <tr class="memdesc:afe01386a82fedc016455a43c20280a97"><td class="mdescLeft">&#160;</td><td class="mdescRight">a constant containing a value with which variables of type double are compared to avoid errors due to the corresponding type  <br /></td></tr>
 <tr class="separator:afe01386a82fedc016455a43c20280a97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2dfab67bf66d5b701df4e8114de63c4c" id="r_a2dfab67bf66d5b701df4e8114de63c4c"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a2dfab67bf66d5b701df4e8114de63c4c">COLOR_LENGTH</a> = 20</td></tr>
-<tr class="memdesc:a2dfab67bf66d5b701df4e8114de63c4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">a constant containing length of escape-sequence for colors  <br /></td></tr>
-<tr class="separator:a2dfab67bf66d5b701df4e8114de63c4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a926cd69579b46ee857998710ac860011" id="r_a926cd69579b46ee857998710ac860011"><td class="memItemLeft" align="right" valign="top">const int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a926cd69579b46ee857998710ac860011">CONST_CHAR_LENGTH</a> = 20</td></tr>
+<tr class="memdesc:a926cd69579b46ee857998710ac860011"><td class="mdescLeft">&#160;</td><td class="mdescRight">a constant containing length of escape-sequence for colors  <br /></td></tr>
+<tr class="separator:a926cd69579b46ee857998710ac860011"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a848b2db55205819def3538efa9b4e13e" id="r_a848b2db55205819def3538efa9b4e13e"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_flags.html">Flags</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a848b2db55205819def3538efa9b4e13e">flags</a></td></tr>
+<tr class="separator:a848b2db55205819def3538efa9b4e13e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01c23a36a248bc92c879b70ce6bc4ad8" id="r_a01c23a36a248bc92c879b70ce6bc4ad8"><td class="memItemLeft" align="right" valign="top">const <a class="el" href="struct_colors.html">Colors</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a01c23a36a248bc92c879b70ce6bc4ad8">colors</a></td></tr>
 <tr class="memdesc:a01c23a36a248bc92c879b70ce6bc4ad8"><td class="mdescLeft">&#160;</td><td class="mdescRight">initialization the constant structure of type <a class="el" href="struct_colors.html" title="a structure containing escape-subsequence for each color for display in terminal">Colors</a>  <br /></td></tr>
 <tr class="separator:a01c23a36a248bc92c879b70ce6bc4ad8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -227,20 +229,6 @@ Variables</h2></td></tr>
 <tr><td class="fieldname"><a id="a8fb872c72e116bbd3eba31f48d78e76ba3ebcc769104b7c4590211b976d2a56eb" name="a8fb872c72e116bbd3eba31f48d78e76ba3ebcc769104b7c4590211b976d2a56eb"></a>UNDEFINED_NUMBER_ROOTS&#160;</td><td class="fielddoc"><p>the cause of the program error is not determined </p>
 </td></tr>
 </table>
-
-</div>
-</div>
-<a id="aa705cf7e79a21c2352b00ffe20cd295f" name="aa705cf7e79a21c2352b00ffe20cd295f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa705cf7e79a21c2352b00ffe20cd295f">&#9670;&#160;</a></span>Flags</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">enum <a class="el" href="#aa705cf7e79a21c2352b00ffe20cd295f">Flags</a></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
 
 </div>
 </div>
@@ -458,22 +446,6 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
-<a id="a2dfab67bf66d5b701df4e8114de63c4c" name="a2dfab67bf66d5b701df4e8114de63c4c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2dfab67bf66d5b701df4e8114de63c4c">&#9670;&#160;</a></span>COLOR_LENGTH</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">const int COLOR_LENGTH = 20</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>a constant containing length of escape-sequence for colors </p>
-
-</div>
-</div>
 <a id="a01c23a36a248bc92c879b70ce6bc4ad8" name="a01c23a36a248bc92c879b70ce6bc4ad8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a01c23a36a248bc92c879b70ce6bc4ad8">&#9670;&#160;</a></span>colors</h2>
 
@@ -505,6 +477,22 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
+<a id="a926cd69579b46ee857998710ac860011" name="a926cd69579b46ee857998710ac860011"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a926cd69579b46ee857998710ac860011">&#9670;&#160;</a></span>CONST_CHAR_LENGTH</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const int CONST_CHAR_LENGTH = 20</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>a constant containing length of escape-sequence for colors </p>
+
+</div>
+</div>
 <a id="afe01386a82fedc016455a43c20280a97" name="afe01386a82fedc016455a43c20280a97"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#afe01386a82fedc016455a43c20280a97">&#9670;&#160;</a></span>EPS</h2>
 
@@ -519,6 +507,24 @@ Here is the caller graph for this function:</div>
 
 <p>a constant containing a value with which variables of type double are compared to avoid errors due to the corresponding type </p>
 
+</div>
+</div>
+<a id="a848b2db55205819def3538efa9b4e13e" name="a848b2db55205819def3538efa9b4e13e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a848b2db55205819def3538efa9b4e13e">&#9670;&#160;</a></span>flags</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="struct_flags.html">Flags</a> flags</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<b>Initial value:</b><div class="fragment"><div class="line">= { .normal = <span class="stringliteral">&quot;--norm&quot;</span>,</div>
+<div class="line">               .tester = <span class="stringliteral">&quot;--test&quot;</span>,</div>
+<div class="line">               .helper = <span class="stringliteral">&quot;--help&quot;</span>,</div>
+<div class="line">               .docker = <span class="stringliteral">&quot;--dock&quot;</span> }</div>
+</div><!-- fragment -->
 </div>
 </div>
 </div><!-- contents -->

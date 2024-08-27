@@ -6,7 +6,7 @@
 #ifndef TESTER_INCLUDE
 #define TESTER_INCLUDE
 
-#include "solve.h"
+#include "solve.hpp"
 
 /**
  * \struct Test

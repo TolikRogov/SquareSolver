@@ -20,33 +20,53 @@
  */
 const double EPS = 1e-6;
 
-
 /**
- * \var const int COLOR_LENGTH
+ * \var const int CONST_CHAR_LENGTH
  * \brief a constant containing length of escape-sequence for colors
  */
-const int COLOR_LENGTH = 20;
+const int CONST_CHAR_LENGTH = 20;
+
+
+/**
+ * \struct Flags
+ * \brief a structure containing flags for different program mod running
+ */
+struct Flags {
+    const char normal[CONST_CHAR_LENGTH];
+    const char tester[CONST_CHAR_LENGTH];
+    const char helper[CONST_CHAR_LENGTH];
+    const char docker[CONST_CHAR_LENGTH];
+};
+
+/**
+ * \var const Flags flags
+ * \brief initialization the constant structure of type Flags
+ */
+const Flags flags = { .normal = "--norm",
+                     .tester = "--test",
+                     .helper = "--help",
+                     .docker = "--dock" };
 
 /**
  * \struct Colors
  * \brief a structure containing escape-subsequence for each color for display in terminal
  */
 struct Colors {
-    char red[COLOR_LENGTH];           /**< escape-subsequence for red color */
-    char green[COLOR_LENGTH];         /**< escape-subsequence for green color */
-    char blue[COLOR_LENGTH];          /**< escape-subsequence for blue color */
-    char yellow[COLOR_LENGTH];        /**< escape-subsequence for yellow color */
-    char pink[COLOR_LENGTH];          /**< escape-subsequence for pink color */
-    char teal[COLOR_LENGTH];          /**< escape-subsequence for teal color */
-    char white[COLOR_LENGTH];         /**< escape-subsequence for white color */
-    char red_bold[COLOR_LENGTH];      /**< escape-subsequence for red_bold color */
-    char green_bold[COLOR_LENGTH];    /**< escape-subsequence for green_bold color */
-    char blue_bold[COLOR_LENGTH];     /**< escape-subsequence for blue_bold color */
-    char yellow_bold[COLOR_LENGTH];   /**< escape-subsequence for yellow_bold color */
-    char pink_bold[COLOR_LENGTH];     /**< escape-subsequence for pink_bold color */
-    char teal_bold[COLOR_LENGTH];     /**< escape-subsequence for teal_bold color */
-    char white_bold[COLOR_LENGTH];    /**< escape-subsequence for white_bold color */
-    char end[COLOR_LENGTH];           /**< escape-subsequence for default color */
+    char red[CONST_CHAR_LENGTH];           /**< escape-subsequence for red color */
+    char green[CONST_CHAR_LENGTH];         /**< escape-subsequence for green color */
+    char blue[CONST_CHAR_LENGTH];          /**< escape-subsequence for blue color */
+    char yellow[CONST_CHAR_LENGTH];        /**< escape-subsequence for yellow color */
+    char pink[CONST_CHAR_LENGTH];          /**< escape-subsequence for pink color */
+    char teal[CONST_CHAR_LENGTH];          /**< escape-subsequence for teal color */
+    char white[CONST_CHAR_LENGTH];         /**< escape-subsequence for white color */
+    char red_bold[CONST_CHAR_LENGTH];      /**< escape-subsequence for red_bold color */
+    char green_bold[CONST_CHAR_LENGTH];    /**< escape-subsequence for green_bold color */
+    char blue_bold[CONST_CHAR_LENGTH];     /**< escape-subsequence for blue_bold color */
+    char yellow_bold[CONST_CHAR_LENGTH];   /**< escape-subsequence for yellow_bold color */
+    char pink_bold[CONST_CHAR_LENGTH];     /**< escape-subsequence for pink_bold color */
+    char teal_bold[CONST_CHAR_LENGTH];     /**< escape-subsequence for teal_bold color */
+    char white_bold[CONST_CHAR_LENGTH];    /**< escape-subsequence for white_bold color */
+    char end[CONST_CHAR_LENGTH];           /**< escape-subsequence for default color */
 };
 
 /**

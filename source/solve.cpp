@@ -8,8 +8,8 @@
 #include <math.h>
 #include <ctype.h>
 
-#include "../include/solve.h"
-#include "../include/utilities.h"
+#include "../include/solve.hpp"
+#include "../include/utilities.hpp"
 
 
 /**

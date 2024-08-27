@@ -8,14 +8,14 @@
 #include <assert.h>
 #include <ctype.h>
 #include <string.h>
+#include <cstdarg>
 
-#include "../include/in_out.h"
+#include "../include/in_out.hpp"
 
 /**
  * \def PRINT_ERROR_STRING(err)
  * \brief a macros prints error message to console if there is error
  */
-
 #define PRINT_ERROR_STRING(err)({                                          \
     if (err != NO_ERROR) {                                                \
         printf("%s%s%s\n", colors.red, ErrorsMessenger(err), colors.end); \

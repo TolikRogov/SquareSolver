@@ -8,7 +8,7 @@
 #include <ctype.h>
 #include <string.h>
 
-#include "../include/utilities.h"
+#include "../include/utilities.hpp"
 
 const char* ErrorsMessenger(Errors error) {
     switch(error) {

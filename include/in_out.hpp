@@ -6,8 +6,8 @@
 #ifndef IN_OUT_INCLUDE
 #define IN_OUT_INCLUDE
 
-#include "utilities.h"
-#include "solve.h"
+#include "utilities.hpp"
+#include "solve.hpp"
 
 /**
  * \fn int Normal()

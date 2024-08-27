@@ -8,10 +8,10 @@
 #include <ctype.h>
 #include <string.h>
 
-#include "../include/tester.h"
-#include "../include/utilities.h"
-#include "../include/in_out.h"
-#include "../include/solve.h"
+#include "../include/tester.hpp"
+#include "../include/utilities.hpp"
+#include "../include/in_out.hpp"
+#include "../include/solve.hpp"
 
 /**
  * \fn int main(int argc, char* argv[])
@@ -23,19 +23,19 @@
 int main(int argc, char* argv[]) {
 
     if (argc == 2) {
-        if (!strcmp(argv[1], "--test")) {
+        if (!strcmp(argv[1], flags.tester)) {
             Tester();
             return 0;
         }
-        else if (!strcmp(argv[1], "--normal")) {
+        else if (!strcmp(argv[1], flags.normal)) {
             Normal();
             return 0;
         }
-        else if (!strcmp(argv[1], "--help")) {
+        else if (!strcmp(argv[1], flags.helper)) {
             Helper();
             return 0;
         }
-        else if (!strcmp(argv[1], "--dock")) {
+        else if (!strcmp(argv[1], flags.docker)) {
             Docker();
             return 0;
         }
