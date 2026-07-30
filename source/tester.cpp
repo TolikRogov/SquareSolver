@@ -10,9 +10,11 @@
 #include "../include/tester.hpp"
 #include "../include/utilities.hpp"
 
-void Tester(){
+void Tester() {
     struct Test list[] =
+//-------------------------------------------------------------------
 //         n_test, a,     b,  c,   x1_right,  x2_right, n_roots_right
+//-------------------------------------------------------------------
        { {  1,     1,     0, -4,         -2,         2, TWO_ROOTS },
          {  2,     0,     0,  0,        NAN,       NAN, INF_ROOTS },
          {  3,     0,     0, -4,        NAN,       NAN, NO_ROOTS  },
@@ -31,14 +33,15 @@ void Tester(){
 
         Solution solutions = RunTests(&list[i]);
         switch(solutions.status) {
-            case FAILED_TEST:{
+            case FAILED_TEST: {
 
                 printf("%s%s%s\n", colors.red, TestsMessenger(solutions.status), colors.end);
 
                 printf("%sa = %lg, b = %lg, c = %lg\nx1 = %.10lg, x2 = %.10lg, n_roots = %d\n"
                        "x1_right = %.10lg, x2_right = %.10lg, n_roots_right = %d%s\n",
-                       colors.yellow, list[i].a, list[i].b, list[i].c, solutions.x1, solutions.x2, solutions.num_roots,
-                       list[i].x1_right, list[i].x2_right, list[i].n_roots_right, colors.end);
+                       colors.yellow, list[i].a, list[i].b, list[i].c, solutions.x1, solutions.x2,
+                       solutions.num_roots, list[i].x1_right, list[i].x2_right, list[i].n_roots_right,
+                       colors.end);
 
                 break;
             }
